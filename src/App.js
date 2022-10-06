@@ -1,3 +1,9 @@
+import { Homepage } from "./components/homepage";
+
 export default function App() {
-  return <div>Welcome to coriftech solutions Ltd</div>;
+  return (
+    <div>
+      <Homepage />
+    </div>
+  );
 }
