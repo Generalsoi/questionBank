@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Typewriter from "typewriter-effect";
 
 export const Homepage = () => {
+  const [show, setShow] = useState(false);
+  useEffect(() => {
+    setTimeout(() => setShow(true), 6000);
+  }, []);
   return (
     <div className="w-full h-screen flex flex-col items-center justify-center bg-black text-white font-roboto gap-5">
       <h1 className="font-bold text-lg md:text-2xl text-center uppercase">
@@ -11,9 +15,11 @@ export const Homepage = () => {
           }}
         />
       </h1>
-      <button className="w-40 h-9 flex items-center justify-center border rounded-lg border-white">
-        Next
-      </button>
+      {show && (
+        <button className="w-40 h-9 flex items-center justify-center border rounded-lg border-white">
+          Next
+        </button>
+      )}
     </div>
   );
 };
