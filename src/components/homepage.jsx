@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
 
 export const Homepage = () => {
@@ -16,9 +17,11 @@ export const Homepage = () => {
         />
       </h1>
       {show && (
-        <button className="w-40 h-9 flex items-center justify-center border rounded-lg border-white">
-          Next
-        </button>
+        <Link to="/questions">
+          <button className="w-40 h-9 flex items-center justify-center border rounded-lg border-white hover:bg-white hover:text-black">
+            Next
+          </button>
+        </Link>
       )}
     </div>
   );
