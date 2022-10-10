@@ -4,6 +4,10 @@ export const Questions = () => {
   const [question, setQuestion] = useState("0");
   const [display, setDisplay] = useState(false);
 
+  const handleDisplay = () => {
+    setDisplay(true);
+  };
+
   const questionBank = {
     1: {
       question: "What is 2 + 2?",
@@ -53,7 +57,7 @@ export const Questions = () => {
           />
           <button
             className="w-32 h-9 border rounded-lg border-white text-sm flex items-center justify-center"
-            onClick={() => setDisplay(true)}
+            onClick={handleDisplay}
           >
             Search
           </button>
