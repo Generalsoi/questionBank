@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export const Questions = () => {
-  const [question, setQuestion] = useState("0");
+  const [number, setNumber] = useState(0);
   const [display, setDisplay] = useState(false);
 
   const handleDisplay = () => {
@@ -52,8 +52,8 @@ export const Questions = () => {
             type="search"
             placeholder="search number here"
             className="w-full h-8 rounded p-2 placeholder:text-sm focus:border-none text-black"
-            value={question}
-            onChange={(e) => setQuestion(e.target.value)}
+            value={number}
+            onChange={(e) => setNumber(e.target.value)}
           />
           <button
             className="w-32 h-9 border rounded-lg border-white text-sm flex items-center justify-center"
@@ -65,7 +65,7 @@ export const Questions = () => {
       </div>
       <div className="h-screen w-full md:w-4/5 flex items-center justify-center">
         <div className="w-[80%] h-[80%] flex flex-col items-center justify-center border border-white rounded-lg">
-          {!!display && questionBank[question].question}
+          {!!display && questionBank[number].question}
           <button>Show answer</button>
         </div>
       </div>
