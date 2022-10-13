@@ -49,7 +49,7 @@ export const Questions = () => {
       <div className="h-screen w-full md:w-1/5 flex items-center justify-center">
         <div className="flex flex-col items-center justify-center gap-4 w-full border border-white h-[30%] p-3">
           <input
-            type="search"
+            type="number"
             placeholder="search number here"
             className="w-full h-8 rounded p-2 placeholder:text-sm focus:border-none text-black"
             value={number}
