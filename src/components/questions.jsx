@@ -51,6 +51,46 @@ export const Questions = () => {
       },
       answer: "b",
     },
+    5: {
+      question: "What is 2 + 2?",
+      options: {
+        a: 5,
+        b: 6,
+        c: 4,
+        d: 3,
+      },
+      answer: "c",
+    },
+    6: {
+      question: "What is 3 + 2?",
+      options: {
+        a: 5,
+        b: 6,
+        c: 4,
+        d: 3,
+      },
+      answer: "a",
+    },
+    7: {
+      question: "What is 3 + 3?",
+      options: {
+        a: 5,
+        b: 6,
+        c: 4,
+        d: 3,
+      },
+      answer: "b",
+    },
+    8: {
+      question: "What is 2 + 3?",
+      options: {
+        a: 5,
+        b: 6,
+        c: 4,
+        d: 3,
+      },
+      answer: "b",
+    },
   };
 
   const questionBankJson = JSON.stringify(questionBank);
