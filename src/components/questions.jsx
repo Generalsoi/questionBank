@@ -6,8 +6,14 @@ export const Questions = () => {
   const [answer, setAnswer] = useState(false);
 
   const handleDisplay = (e) => {
+    const currentNumber = number;
     setDisplay(true);
     setAnswer();
+    let selectedNumbers = [];
+    localStorage.setItem(
+      "selectedNos",
+      JSON.stringify([...selectedNumbers, currentNumber])
+    );
   };
 
   const questionBank = {
@@ -99,11 +105,11 @@ export const Questions = () => {
   return (
     <div className="w-full h-screen flex flex-col md:flex-row  items-center font-roboto bg-black text-white">
       <div className="h-screen w-full md:w-1/5 flex items-center justify-center">
-        <div className="flex flex-col items-center justify-center gap-4 w-full border border-white h-[30%] p-3">
+        <div className="flex flex-col items-center justify-center gap-8 w-[80%] md:w-full border border-white h-[50%] md:h-[30%] p-3">
           <input
             type="number"
             placeholder="search number here"
-            className="w-full h-8 rounded p-2 placeholder:text-sm focus:border-none text-black"
+            className="w-[80%] md:w-full h-10 md:h-8 rounded p-2 placeholder:text-sm focus:border-none text-black"
             value={number}
             onChange={(e) => setNumber(e.target.value)}
           />
