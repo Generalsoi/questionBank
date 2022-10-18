@@ -4,16 +4,16 @@ export const Questions = () => {
   const [number, setNumber] = useState(0);
   const [display, setDisplay] = useState(false);
   const [answer, setAnswer] = useState(false);
+  const [selectedNo, setSelectedNo] = useState([number]);
 
-  const handleDisplay = (e) => {
-    const currentNumber = number;
+  let valueId = 0;
+  const handleDisplay = () => {
     setDisplay(true);
     setAnswer();
-    let selectedNumbers = [];
-    localStorage.setItem(
-      "selectedNos",
-      JSON.stringify([...selectedNumbers, currentNumber])
-    );
+    setSelectedNo([...selectedNo, number]);
+    console.log(selectedNo);
+    // selectedNumbers = [...selectedNumbers, currentNumber];
+    localStorage.setItem("selectedNos", JSON.stringify(selectedNo));
   };
 
   const questionBank = {
@@ -100,7 +100,6 @@ export const Questions = () => {
   };
 
   const questionBankJson = JSON.stringify(questionBank);
-  console.log(questionBankJson);
 
   return (
     <div className="w-full h-screen flex flex-col md:flex-row  items-center font-roboto bg-black text-white">
