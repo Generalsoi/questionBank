@@ -1,18 +1,43 @@
+import { list } from "postcss";
 import React, { useState } from "react";
+
+// question = {question: string, options: {key, value: string, }, answer: string}
+export const QuestionViewer = ({
+  questionObject: { question, options, answer },
+}) => {
+  const [showAnswer, setShowAnswer] = useState(false);
+  return (
+    <div>
+      <h4 className="text-3xl">{question}</h4>
+
+      <ul>
+        {Object.entries(options).map((key, index) => (
+          <li key={index}>{` ${key[0]}. ${key[1]}`}</li>
+        ))}
+      </ul>
+
+      <button
+        className="mt-4 w-32 h-9 border rounded-lg border-white text-sm flex items-center justify-center"
+        onClick={() => setShowAnswer(!showAnswer)}
+      >
+        {showAnswer ? "Hide answer" : "Show answer"}
+      </button>
+
+      <div className="text-xl">{showAnswer && `The answer is: ${answer}`}</div>
+    </div>
+  );
+};
 
 export const Questions = () => {
   const [number, setNumber] = useState(0);
-  const [display, setDisplay] = useState(false);
-  const [answer, setAnswer] = useState(false);
   const [selectedNo, setSelectedNo] = useState([number]);
+  const [selectedQuestion, setSelectedQuestion] = useState(0);
 
-  let valueId = 0;
+  const previousQuestions = JSON.parse(localStorage.getItem("selectedNos"));
+
   const handleDisplay = () => {
-    setDisplay(true);
-    setAnswer();
+    setSelectedQuestion(number);
     setSelectedNo([...selectedNo, number]);
-    console.log(selectedNo);
-    // selectedNumbers = [...selectedNumbers, currentNumber];
     localStorage.setItem("selectedNos", JSON.stringify(selectedNo));
   };
 
@@ -122,49 +147,9 @@ export const Questions = () => {
       </div>
       <div className="h-screen w-full md:w-4/5 flex items-center justify-center">
         <div className="w-[80%] h-[80%] flex flex-col items-center justify-center border border-white rounded-lg">
-          {!!display && (
-            <>
-              <h4 className="text-3xl">{questionBank[number]?.question}</h4>
-              <ul>
-                <li className="flex gap-3 items-center">
-                  <p>a.</p>
-                  {questionBank[number]?.options.a}
-                </li>
-                <li className="flex gap-3 items-center">
-                  <p>b.</p>
-                  {questionBank[number]?.options.b}
-                </li>
-                <li className="flex gap-3 items-center">
-                  <p>c.</p>
-                  {questionBank[number]?.options.c}
-                </li>
-                <li className="flex gap-3 items-center">
-                  <p>d.</p>
-                  {questionBank[number]?.options.d}
-                </li>
-              </ul>
-            </>
+          {selectedQuestion !== 0 && (
+            <QuestionViewer questionObject={questionBank[selectedQuestion]} />
           )}
-          {!!display &&
-            (!answer ? (
-              <button
-                className="mt-4 w-32 h-9 border rounded-lg border-white text-sm flex items-center justify-center"
-                onClick={() => setAnswer(true)}
-              >
-                Show answer
-              </button>
-            ) : (
-              <button
-                className="mt-4 w-32 h-9 border rounded-lg border-white text-sm flex items-center justify-center"
-                onClick={() => setAnswer(false)}
-              >
-                Hide answer
-              </button>
-            ))}
-
-          <div className="text-xl">
-            {answer && `The answer is: ${questionBank[number]?.answer}`}
-          </div>
         </div>
       </div>
     </div>
