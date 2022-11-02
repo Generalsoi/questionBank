@@ -8,12 +8,15 @@ export const QuestionViewer = ({
   const [showAnswer, setShowAnswer] = useState(false);
   return (
     <div>
-      <h4 className="text-3xl">{question}</h4>
+      <h4 className="text-4xl">{question}</h4>
 
       <div className="w-full flex justify-center">
         <ul className="mt-8">
           {Object.entries(options).map((key, index) => (
-            <li key={index} className="my-3">{` ${key[0]}. ${key[1]}`}</li>
+            <li
+              key={index}
+              className="my-3 text-2xl"
+            >{` ${key[0]}. ${key[1]}`}</li>
           ))}
         </ul>
       </div>
