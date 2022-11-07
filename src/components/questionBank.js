@@ -58,7 +58,7 @@ export const questionBank = {
       c: " After debugging",
       d: " Default system setup",
     },
-    answer: "",
+    answer: "a",
   },
   7: {
     question: "What is a flow chart?",
@@ -78,7 +78,7 @@ export const questionBank = {
       c: " Debugging ",
       d: " Program ",
     },
-    answer: "",
+    answer: "a",
   },
   9: {
     question: " One of these is 'NOT' a way of reducing page load time? ",
@@ -118,7 +118,7 @@ export const questionBank = {
       c: " Static constant ",
       d: " Derived constant",
     },
-    answer: "",
+    answer: "a",
   },
   13: {
     question:
@@ -225,7 +225,7 @@ export const questionBank = {
       c: " Complex language",
       d: " Common language ",
     },
-    answer: "",
+    answer: "a",
   },
   23: {
     question: "All are modelling languages except?",
@@ -235,7 +235,7 @@ export const questionBank = {
       c: " Alloy",
       d: " Array ",
     },
-    answer: "",
+    answer: "d",
   },
   24: {
     question: "Which of these is an attribute?",
@@ -256,7 +256,7 @@ export const questionBank = {
       c: " Beta version",
       d: " Constant Version",
     },
-    answer: "",
+    answer: "c",
   },
   26: {
     question:
@@ -278,7 +278,7 @@ export const questionBank = {
       c: " Performs check ",
       d: " Check out ",
     },
-    answer: "",
+    answer: "a",
   },
   28: {
     question: " Every algorithm performs at the following steps except?",
@@ -288,7 +288,7 @@ export const questionBank = {
       c: " Display results ",
       d: " System setup ",
     },
-    answer: "",
+    answer: "d",
   },
   29: {
     question:
@@ -317,7 +317,7 @@ export const questionBank = {
       c: " Command point numbers ",
       d: " Corrected point number ",
     },
-    answer: "",
+    answer: "a",
   },
   32: {
     question: " Which of these Is a String in JavaScript?",
@@ -462,7 +462,7 @@ export const questionBank = {
       c: "Bit encoding",
       d: " HTML encoding",
     },
-    answer: "",
+    answer: "b",
   },
   46: {
     question: " Which of these is “NOT” an Operator in JavaScript?",
@@ -693,7 +693,7 @@ export const questionBank = {
       c: " Diagonalization ",
       d: " Queue ",
     },
-    answer: "",
+    answer: "b",
   },
   68: {
     question: " What was the Chief Component of First generations Computers?",
@@ -713,7 +713,7 @@ export const questionBank = {
       c: " Block ",
       d: " Group ",
     },
-    answer: "",
+    answer: "b",
   },
   70: {
     question: " The process of communicating with a file from a terminal is?",
@@ -723,7 +723,7 @@ export const questionBank = {
       c: " Heuristic ",
       d: " All of the above ",
     },
-    answer: "",
+    answer: "b",
   },
   71: {
     question: " Which kind of storage device cannot be carried around ?",
@@ -960,7 +960,7 @@ export const questionBank = {
       c: " Inkjet ",
       d: "All of those",
     },
-    answer: "",
+    answer: "d",
   },
   94: {
     question: " Magnetic Ink Character Recognition is an example of?",
@@ -1010,7 +1010,7 @@ export const questionBank = {
       c: " Disk drive ",
       d: "Processor",
     },
-    answer: "",
+    answer: "d",
   },
   99: {
     question: " The ___ was invented by William Oughtred?",
@@ -1020,7 +1020,7 @@ export const questionBank = {
       c: " Calculator ",
       d: "Slide rule",
     },
-    answer: "",
+    answer: "d",
   },
   100: {
     question: " BIOS stands for________?",
@@ -1094,7 +1094,7 @@ export const questionBank = {
       c: " Barcode reader ",
       d: " OMR ",
     },
-    answer: "",
+    answer: "c",
   },
   107: {
     question:
@@ -1199,7 +1199,7 @@ export const questionBank = {
       c: " Micro hertz ",
       d: " Milliseconds ",
     },
-    answer: "",
+    answer: "a",
   },
   117: {
     question:
@@ -1210,7 +1210,7 @@ export const questionBank = {
       c: " Control structures ",
       d: "Control words ",
     },
-    answer: "",
+    answer: "a",
   },
   118: {
     question:
@@ -1221,7 +1221,7 @@ export const questionBank = {
       c: " Logic unit ",
       d: "Control unit ",
     },
-    answer: "",
+    answer: "d",
   },
   119: {
     question: " Processing involves?",
@@ -1285,7 +1285,7 @@ export const questionBank = {
       c: " PROM ",
       d: " EPROM ",
     },
-    answer: "",
+    answer: "d",
   },
   125: {
     question:
@@ -1296,7 +1296,7 @@ export const questionBank = {
       c: " Business systems planning ",
       d: " Critical success factors ",
     },
-    answer: "",
+    answer: "c",
   },
   126: {
     question: " Who is known as the father of the Free Software Foundation?",
@@ -1306,7 +1306,7 @@ export const questionBank = {
       c: " Andreas Bereczk ",
       d: " Ryan Kelly ",
     },
-    answer: "",
+    answer: "b",
   },
   127: {
     question: " In which year was the ‘C’ programming language developed?",
@@ -1316,7 +1316,7 @@ export const questionBank = {
       c: " 1972 ",
       d: " 1990 ",
     },
-    answer: "",
+    answer: "c",
   },
   128: {
     question: " Who is known as the father of the Internet?",
@@ -1326,7 +1326,7 @@ export const questionBank = {
       c: " Tim Berners-Lee ",
       d: " Vinton Cerf ",
     },
-    answer: "",
+    answer: "d",
   },
   129: {
     question: " Who is the first computer programmer?",
@@ -1336,7 +1336,7 @@ export const questionBank = {
       c: " Brian Kernighan ",
       d: " Vinton Cerf ",
     },
-    answer: "",
+    answer: "a",
   },
   130: {
     question: "  In which year was computer graphics originated?",
@@ -1346,7 +1346,7 @@ export const questionBank = {
       c: " 1990 ",
       d: " 1950 ",
     },
-    answer: "",
+    answer: "a",
   },
   131: {
     question: " What is the name of World’s first digital Computer?",
@@ -1356,7 +1356,7 @@ export const questionBank = {
       c: "  Z1",
       d: " abacus ",
     },
-    answer: "",
+    answer: "a",
   },
   132: {
     question: " What is the name of the tablet introduced by Amazon?",
@@ -1366,7 +1366,7 @@ export const questionBank = {
       c: "  FREE FIRE",
       d: " Fire HD 8 Tablet ",
     },
-    answer: "",
+    answer: "b",
   },
   133: {
     question: "Who invented the Computer Mouse?",
@@ -1376,7 +1376,7 @@ export const questionBank = {
       c: " Doughles Engelbert ",
       d: " Louis Pasteur ",
     },
-    answer: "",
+    answer: "c",
   },
   134: {
     question: " Who is known as the father of the World Wide Web?",
@@ -1386,7 +1386,7 @@ export const questionBank = {
       c: "  Jack Nilles ",
       d: " Norman Abramson ",
     },
-    answer: "",
+    answer: "b",
   },
   135: {
     question: " What do you call a single point on a computer screen?",
@@ -1396,7 +1396,7 @@ export const questionBank = {
       c: "  Dot ",
       d: " Pixel ",
     },
-    answer: "",
+    answer: "d",
   },
   136: {
     question: " The CPU Chip used in a computer is made of which element?",
@@ -1426,7 +1426,7 @@ export const questionBank = {
       c: "January 18",
       d: " May 3 ",
     },
-    answer: "",
+    answer: "b",
   },
   139: {
     question: " How long is an IPV6 Address?",
@@ -1436,7 +1436,7 @@ export const questionBank = {
       c: "128 bit (32 bytes)",
       d: "128 bit (8 bytes)",
     },
-    answer: "",
+    answer: "a",
   },
   140: {
     question: " What is You tube's Slogan?",
@@ -1446,7 +1446,7 @@ export const questionBank = {
       c: " Funny experiences brought to you ",
       d: " Broadcast Yourself ",
     },
-    answer: "",
+    answer: "d",
   },
   141: {
     question: " Winchester drive is also called what?",
@@ -1456,7 +1456,7 @@ export const questionBank = {
       c: " Hard disk drive ",
       d: " CD drive ",
     },
-    answer: "",
+    answer: "c",
   },
   142: {
     question: " Which IRQ does the hard disk drive use?",
@@ -1466,7 +1466,7 @@ export const questionBank = {
       c: " 16 ",
       d: " 64 ",
     },
-    answer: "",
+    answer: "b",
   },
   143: {
     question: " What is the 'Arendelle' code name for?",
@@ -1476,7 +1476,7 @@ export const questionBank = {
       c: " Intel Core X-series Processors ",
       d: " Intel Processor ",
     },
-    answer: "",
+    answer: "d",
   },
   144: {
     question: " IRQ6 is commonly assigned to?",
@@ -1486,7 +1486,7 @@ export const questionBank = {
       c: " Virtual Box floppy ",
       d: " Floppy Drive Controller ",
     },
-    answer: "",
+    answer: "d",
   },
   145: {
     question:
@@ -1497,7 +1497,7 @@ export const questionBank = {
       c: " BCPL",
       d: " C++ ",
     },
-    answer: "d",
+    answer: "c",
   },
   146: {
     question: " C programming language was developed by?",
@@ -1507,7 +1507,7 @@ export const questionBank = {
       c: " Bill Gates",
       d: " Peter Norton ",
     },
-    answer: "",
+    answer: "a",
   },
   147: {
     question: " C was developed in the year ___?",
@@ -1517,7 +1517,7 @@ export const questionBank = {
       c: " 1976",
       d: " 1980 ",
     },
-    answer: "",
+    answer: "b",
   },
   148: {
     question: " C is a ___ language?",
@@ -1527,7 +1527,7 @@ export const questionBank = {
       c: " Middle Level ",
       d: " Machine Level ",
     },
-    answer: "",
+    answer: "c",
   },
   149: {
     question:
@@ -1549,7 +1549,7 @@ export const questionBank = {
       c: " ~",
       d: " ;",
     },
-    answer: "d",
+    answer: "b",
   },
   151: {
     question: " Which of the following is a Scalar Data type?",
@@ -1559,7 +1559,7 @@ export const questionBank = {
       c: " Array",
       d: " Pointer ",
     },
-    answer: "d",
+    answer: "a",
   },
   152: {
     question: " Which of the following are tokens in C?",
@@ -1579,7 +1579,7 @@ export const questionBank = {
       c: " -65536 to +65536",
       d: " No specific range ",
     },
-    answer: "",
+    answer: "b",
   },
   154: {
     question: " Which symbol is used as a statement terminator in C?",
@@ -1589,7 +1589,7 @@ export const questionBank = {
       c: " ~",
       d: " ; ",
     },
-    answer: "",
+    answer: "d",
   },
   155: {
     question: " Which escape character can be used to begin a new line in C?",
@@ -1599,7 +1599,7 @@ export const questionBank = {
       c: " m",
       d: " \n ",
     },
-    answer: "",
+    answer: "d",
   },
   156: {
     question:
@@ -1610,7 +1610,7 @@ export const questionBank = {
       c: " m",
       d: " \n ",
     },
-    answer: "",
+    answer: "a",
   },
   157: {
     question: " Character constants should be enclosed between ___?",
@@ -1620,7 +1620,7 @@ export const questionBank = {
       c: " Both a and ",
       d: " None of these ",
     },
-    answer: "",
+    answer: "a",
   },
   158: {
     question: " String constants should be enclosed between _____?",
@@ -1630,7 +1630,7 @@ export const questionBank = {
       c: " Both a and ",
       d: " None of these ",
     },
-    answer: "",
+    answer: "b",
   },
   159: {
     question: " Which of the following is invalid?",
@@ -1640,7 +1640,7 @@ export const questionBank = {
       c: " 'a' ",
       d: " 'abc' ",
     },
-    answer: "",
+    answer: "d",
   },
   160: {
     question: " The maximum length of a variable in C is ___?",
@@ -1650,7 +1650,7 @@ export const questionBank = {
       c: " 32 ",
       d: " 64 ",
     },
-    answer: "",
+    answer: "a",
   },
   161: {
     question: " What will be the maximum size of a float variable?",
@@ -1660,7 +1660,7 @@ export const questionBank = {
       c: " 4 byte ",
       d: " 8 byte ",
     },
-    answer: "",
+    answer: "c",
   },
   162: {
     question: " What will be the maximum size of a double variable?",
@@ -1670,7 +1670,7 @@ export const questionBank = {
       c: " 8 byte ",
       d: " 16 byte ",
     },
-    answer: "",
+    answer: "c",
   },
   163: {
     question: " A declaration float a,b; occupies ___ of memory?",
@@ -1680,7 +1680,7 @@ export const questionBank = {
       c: " 8 byte ",
       d: " 16 byte ",
     },
-    answer: "",
+    answer: "c",
   },
   164: {
     question: " The size of a String variable is?",
@@ -1690,7 +1690,7 @@ export const questionBank = {
       c: " 8 byte ",
       d: " None of these ",
     },
-    answer: "",
+    answer: "d",
   },
   165: {
     question:
@@ -1701,7 +1701,7 @@ export const questionBank = {
       c: " a=b=c ",
       d: " a=b ",
     },
-    answer: "",
+    answer: "b",
   },
   166: {
     question: " The operator && is an example for ___ operator?",
@@ -1711,7 +1711,7 @@ export const questionBank = {
       c: " Logical ",
       d: " Rational ",
     },
-    answer: "",
+    answer: "c",
   },
   167: {
     question: " The operator & is used for?",
@@ -1721,7 +1721,7 @@ export const questionBank = {
       c: " Logical AND ",
       d: " Logical OR ",
     },
-    answer: "",
+    answer: "a",
   },
   168: {
     question: " The operator / can be applied to?",
@@ -1731,7 +1731,7 @@ export const questionBank = {
       c: " double values ",
       d: " All of these ",
     },
-    answer: "",
+    answer: "b",
   },
   169: {
     question: " The equality operator is represented by?",
@@ -1741,7 +1741,7 @@ export const questionBank = {
       c: " = ",
       d: " == ",
     },
-    answer: "c",
+    answer: "d",
   },
   170: {
     question: " The equality operator is represented by?",
@@ -1751,7 +1751,7 @@ export const questionBank = {
       c: " = ",
       d: " == ",
     },
-    answer: "c",
+    answer: "d",
   },
   171: {
     question: " The bitwise AND operator is used for?",
@@ -1761,7 +1761,7 @@ export const questionBank = {
       c: " Division ",
       d: " Shifting bits ",
     },
-    answer: "",
+    answer: "a",
   },
   172: {
     question: " The bitwise OR operator is used for?",
@@ -1771,7 +1771,7 @@ export const questionBank = {
       c: " divide numbers ",
       d: " multiply numbers ",
     },
-    answer: "",
+    answer: "a",
   },
   173: {
     question: " Which of the following operators has the highest precedence?",
@@ -1781,7 +1781,7 @@ export const questionBank = {
       c: " => ",
       d: " + ",
     },
-    answer: "",
+    answer: "d",
   },
   174: {
     question: " The associativity of the ! operator is?",
@@ -1791,7 +1791,7 @@ export const questionBank = {
       c: " (a) for Arithmetic and (b) for Relational ",
       d: " (a) for Relational and (b) for Arithmetic ",
     },
-    answer: "",
+    answer: "a",
   },
   175: {
     question: " Which operator has the lowest priority?",
@@ -1801,7 +1801,7 @@ export const questionBank = {
       c: " + ",
       d: " || ",
     },
-    answer: "",
+    answer: "d",
   },
   176: {
     question: " Which operator has the highest priority?",
@@ -1811,7 +1811,7 @@ export const questionBank = {
       c: " + ",
       d: " || ",
     },
-    answer: "",
+    answer: "a",
   },
   177: {
     question:
@@ -1822,7 +1822,7 @@ export const questionBank = {
       c: "Evaluated First ",
       d: " Takes no arguments ",
     },
-    answer: "",
+    answer: "c",
   },
   178: {
     question: " Integer Division results in?",
@@ -1832,7 +1832,7 @@ export const questionBank = {
       c: " Floating value ",
       d: " An Error is generated ",
     },
-    answer: "",
+    answer: "b",
   },
   179: {
     question: " Which of the following is a ternary operator?",
@@ -1842,7 +1842,7 @@ export const questionBank = {
       c: " sizeof ",
       d: " ^ ",
     },
-    answer: "",
+    answer: "a",
   },
   180: {
     question: " What will be the output of the expression 11 ^ 5?",
@@ -1852,7 +1852,7 @@ export const questionBank = {
       c: " 11 ",
       d: "None of these ",
     },
-    answer: "",
+    answer: "d",
   },
   181: {
     question: "  The type cast operator is?",
@@ -1862,7 +1862,7 @@ export const questionBank = {
       c: " (;;) ",
       d: "//”” ",
     },
-    answer: "",
+    answer: "d",
   },
   182: {
     question: "  Explicit type conversion is known as?",
@@ -1872,7 +1872,7 @@ export const questionBank = {
       c: " Disjunction ",
       d: " Separation ",
     },
-    answer: "",
+    answer: "a",
   },
   183: {
     question: "  The operator + in a+=4 means?",
@@ -1882,7 +1882,7 @@ export const questionBank = {
       c: " a=4 ",
       d: " a=4+4 ",
     },
-    answer: "",
+    answer: "a",
   },
   184: {
     question: "  p++ executes faster than p+1 because?",
@@ -1892,7 +1892,7 @@ export const questionBank = {
       c: "++ is faster than +",
       d: " None of these ",
     },
-    answer: "",
+    answer: "b",
   },
   185: {
     question: "  Which of the following statements is true?",
@@ -1902,7 +1902,7 @@ export const questionBank = {
       c: " C doesn’t have I/O facilities ",
       d: " Both (a) and © ",
     },
-    answer: "",
+    answer: "a",
   },
   186: {
     question: "  Header files in C contain?",
@@ -1912,7 +1912,7 @@ export const questionBank = {
       c: " Header information of C programs ",
       d: " Operators for files ",
     },
-    answer: "",
+    answer: "b",
   },
   187: {
     question:
@@ -1923,7 +1923,7 @@ export const questionBank = {
       c: " Input() and output()",
       d: " None of these ",
     },
-    answer: "",
+    answer: "a",
   },
   188: {
     question:
@@ -1934,7 +1934,7 @@ export const questionBank = {
       c: " Negative value ",
       d: " None of these ",
     },
-    answer: "",
+    answer: "c",
   },
   189: {
     question: "  Identify the wrong statement.?",
@@ -1944,7 +1944,7 @@ export const questionBank = {
       c: " putchar(“x”)",
       d: " putchar('\n')",
     },
-    answer: "",
+    answer: "c",
   },
   190: {
     question:
@@ -1955,7 +1955,7 @@ export const questionBank = {
       c: " scanf() and printf()",
       d: " fgets() and fputs()",
     },
-    answer: "",
+    answer: "a",
   },
   191: {
     question: "  The output of printf(“%u”, -1) is?",
@@ -1965,7 +1965,7 @@ export const questionBank = {
       c: " -1",
       d: " Error message",
     },
-    answer: "",
+    answer: "c",
   },
   192: {
     question: "  An Ampersand before the name of a variable denotes?",
@@ -1975,7 +1975,7 @@ export const questionBank = {
       c: " Address ",
       d: " Data Type",
     },
-    answer: "",
+    answer: "c",
   },
   193: {
     question: "  Symbolic constants can be defined using?",
@@ -1985,7 +1985,7 @@ export const questionBank = {
       c: "Symbol ",
       d: "None of these",
     },
-    answer: "",
+    answer: "b",
   },
   194: {
     question: "  Null character is represented by?",
@@ -1995,7 +1995,7 @@ export const questionBank = {
       c: "o ",
       d: "e",
     },
-    answer: "",
+    answer: "b",
   },
   195: {
     question: "  Which header file is essential for using strcmp() function?",
@@ -2005,7 +2005,7 @@ export const questionBank = {
       c: " text.h ",
       d: "strcmp.h ",
     },
-    answer: "",
+    answer: "a",
   },
   196: {
     question:
@@ -2016,7 +2016,7 @@ export const questionBank = {
       c: " conio.h ",
       d: " mem.h ",
     },
-    answer: "",
+    answer: "b",
   },
   197: {
     question:
@@ -2027,7 +2027,7 @@ export const questionBank = {
       c: " stdio.h ",
       d: " files.h ",
     },
-    answer: "",
+    answer: "d",
   },
   198: {
     question: "  C supports how many basic looping constructs?",
@@ -2037,7 +2037,7 @@ export const questionBank = {
       c: " 4 ",
       d: " 6 ",
     },
-    answer: "",
+    answer: "b",
   },
   199: {
     question: "  A statement differs from expression by terminating with a?",
@@ -2047,7 +2047,7 @@ export const questionBank = {
       c: " Null ",
       d: " . ",
     },
-    answer: "",
+    answer: "a",
   },
   200: {
     question:
@@ -2058,7 +2058,7 @@ export const questionBank = {
       c: " -1 ",
       d: " Null ",
     },
-    answer: "",
+    answer: "b",
   },
   201: {
     question:
@@ -2069,7 +2069,7 @@ export const questionBank = {
       c: " GO TO ",
       d: " FOR ",
     },
-    answer: "",
+    answer: "c",
   },
   202: {
     question: "  Continue statement is used? ",
@@ -2079,7 +2079,7 @@ export const questionBank = {
       c: " exit and return to the main function ",
       d: " restarts iterations from the beginning of the loop ",
     },
-    answer: "",
+    answer: "a",
   },
   203: {
     question: "  Which operator in C is called a ternary operator?",
@@ -2089,7 +2089,7 @@ export const questionBank = {
       c: " ?: ",
       d: " () ",
     },
-    answer: "",
+    answer: "c",
   },
   204: {
     question:
@@ -2100,7 +2100,7 @@ export const questionBank = {
       c: " files.h ",
       d: " strcsspy() ",
     },
-    answer: "",
+    answer: "a",
   },
   205: {
     question: "  The meaning of conversion character for data input is?",
@@ -2110,7 +2110,7 @@ export const questionBank = {
       c: " Data item is a short integer ",
       d: " None of the above ",
     },
-    answer: "",
+    answer: "c",
   },
   206: {
     question:
@@ -2121,7 +2121,7 @@ export const questionBank = {
       c: " A hexadecimal integer ",
       d: " A string followed by white space ",
     },
-    answer: "",
+    answer: "b",
   },
   207: {
     question:
@@ -2132,7 +2132,7 @@ export const questionBank = {
       c: " Assignment, relational, arithmetic ",
       d: " Arithmetic, relational, assignment",
     },
-    answer: "",
+    answer: "d",
   },
   208: {
     question:
@@ -2143,7 +2143,7 @@ export const questionBank = {
       c: " auto ",
       d: " scanf",
     },
-    answer: "a",
+    answer: "c",
   },
   209: {
     question: "  In the C language 'a' represents?",
@@ -2153,7 +2153,7 @@ export const questionBank = {
       c: " A character ",
       d: " A word",
     },
-    answer: "",
+    answer: "c",
   },
   210: {
     question: "  The number of relational operators in the C language is?",
@@ -2163,7 +2163,7 @@ export const questionBank = {
       c: " Three ",
       d: " One",
     },
-    answer: "",
+    answer: "b",
   },
   211: {
     question:
@@ -2174,7 +2174,7 @@ export const questionBank = {
       c: " parenthesis ",
       d: " ) a pair of /'s ",
     },
-    answer: "",
+    answer: "a",
   },
   212: {
     question: "  A link is?",
@@ -2184,7 +2184,7 @@ export const questionBank = {
       c: " a C interpreter ",
       d: " an analyzing tool in C ",
     },
-    answer: "",
+    answer: "d",
   },
   213: {
     question: "  The continue command cannot be used with?",
@@ -2194,7 +2194,7 @@ export const questionBank = {
       c: " do ",
       d: " while ",
     },
-    answer: "",
+    answer: "a",
   },
   214: {
     question: "  In C, a Union is a?",
@@ -2204,7 +2204,7 @@ export const questionBank = {
       c: " Memory screen ",
       d: " None of these ",
     },
-    answer: "",
+    answer: "b",
   },
   215: {
     question:
@@ -2215,7 +2215,7 @@ export const questionBank = {
       c: " both a and b ",
       d: " None of these ",
     },
-    answer: "",
+    answer: "d",
   },
   216: {
     question: "  A multidimensional array can be expressed in terms of?",
@@ -2225,7 +2225,7 @@ export const questionBank = {
       c: " array without the group of a contiguous array ",
       d: " None of these ",
     },
-    answer: "",
+    answer: "a",
   },
   217: {
     question:
@@ -2236,7 +2236,7 @@ export const questionBank = {
       c: " Parameter ",
       d: " None of these ",
     },
-    answer: "",
+    answer: "b",
   },
   218: {
     question: "  A pointer to a pointer is a form of?",
@@ -2246,7 +2246,7 @@ export const questionBank = {
       c: " Both a and b ",
       d: " None of these ",
     },
-    answer: "",
+    answer: "c",
   },
   219: {
     question: "  Pointers are of?",
@@ -2256,7 +2256,7 @@ export const questionBank = {
       c: " unsigned integer data types ",
       d: " None of these ",
     },
-    answer: "",
+    answer: "d",
   },
   220: {
     question:
@@ -2267,7 +2267,7 @@ export const questionBank = {
       c: " 35 ",
       d: " 40",
     },
-    answer: "",
+    answer: "d",
   },
   221: {
     question:
@@ -2278,7 +2278,7 @@ export const questionBank = {
       c: " Size of Array is increased ",
       d: " Size is neglected when values are given ",
     },
-    answer: "",
+    answer: "a",
   },
   222: {
     question: "  Array subscripts in C always start at?",
@@ -2288,7 +2288,7 @@ export const questionBank = {
       c: " 0 ",
       d: " Value provided by the user ",
     },
-    answer: "",
+    answer: "c",
   },
   223: {
     question: "  A Structure?",
@@ -2298,7 +2298,7 @@ export const questionBank = {
       c: " can be displayed as a single entity ",
       d: " has member variables that cannot be read individually ",
     },
-    answer: "",
+    answer: "b",
   },
   224: {
     question: " Which is the correct way to declare a pointer?",
@@ -2308,7 +2308,7 @@ export const questionBank = {
       c: " *int ptr;",
       d: " None of these ",
     },
-    answer: "",
+    answer: "b",
   },
   225: {
     question:
@@ -2319,7 +2319,7 @@ export const questionBank = {
       c: " Footnote from the Insert menu ",
       d: " Both a and c ",
     },
-    answer: "",
+    answer: "a",
   },
   226: {
     question: " Which is not a data source component?",
@@ -2329,7 +2329,7 @@ export const questionBank = {
       c: " data fields ",
       d: " data records ",
     },
-    answer: "",
+    answer: "a",
   },
   227: {
     question:
@@ -2340,7 +2340,7 @@ export const questionBank = {
       c: " Image editor ",
       d: " File manager ",
     },
-    answer: "",
+    answer: "d",
   },
   228: {
     question: " Where can you find the Draw Table tool button?",
@@ -2350,7 +2350,7 @@ export const questionBank = {
       c: " Drawing toolbar ",
       d: " Tables and Formatting toolbar ",
     },
-    answer: "",
+    answer: "d",
   },
   229: {
     question:
@@ -2361,7 +2361,7 @@ export const questionBank = {
       c: " Exit ",
       d: " New ",
     },
-    answer: "d",
+    answer: "b",
   },
   230: {
     question:
@@ -2372,7 +2372,7 @@ export const questionBank = {
       c: " Break command form Insert menu ",
       d: " Both b and c ",
     },
-    answer: "",
+    answer: "c",
   },
   231: {
     question:
@@ -2383,7 +2383,7 @@ export const questionBank = {
       c: " word art ",
       d: " text effects ",
     },
-    answer: "d",
+    answer: "b",
   },
   232: {
     question: " Shimmer, Sparkle text, Blinking background, etc. are known as?",
@@ -2393,7 +2393,7 @@ export const questionBank = {
       c: " word art ",
       d: " text effects ",
     },
-    answer: "c",
+    answer: "d",
   },
   233: {
     question:
@@ -2404,7 +2404,7 @@ export const questionBank = {
       c: " Kerning ",
       d: " Positioning ",
     },
-    answer: "a",
+    answer: "c",
   },
   234: {
     question: " Which of the following is not available in font spacing?",
@@ -2414,7 +2414,7 @@ export const questionBank = {
       c: " Condensed ",
       d: " Expanded ",
     },
-    answer: "",
+    answer: "b",
   },
   235: {
     question:
@@ -2425,7 +2425,7 @@ export const questionBank = {
       c: " Lowered ",
       d: " Cantered ",
     },
-    answer: "b",
+    answer: "d",
   },
   236: {
     question:
@@ -2436,7 +2436,7 @@ export const questionBank = {
       c: " 100 ",
       d: " 90 ",
     },
-    answer: "",
+    answer: "b",
   },
   237: {
     question: " Bold, italic, and Regular are known as?",
@@ -2457,7 +2457,7 @@ export const questionBank = {
       c: " Change Case makes conversion permanent but All Caps on Font can always be reverted",
       d: " All caps on font dialog box makes the change permanent where change case can be always reverted ",
     },
-    answer: "",
+    answer: "c",
   },
   239: {
     question: " If you need to hide some paragraphs, how can you do it?",
@@ -2467,7 +2467,7 @@ export const questionBank = {
       c: " From options Dialog box ",
       d: " None of above ",
     },
-    answer: "",
+    answer: "b",
   },
   240: {
     question: " Which of the following is the latest version of MS Word?",
@@ -2498,7 +2498,7 @@ export const questionBank = {
       c: " 35 ",
       d: " 40",
     },
-    answer: "",
+    answer: "c",
   },
   243: {
     question: " You can detect spelling and grammar errors by?",
@@ -2508,7 +2508,7 @@ export const questionBank = {
       c: " Press Alt + F7 ",
       d: " Press F7",
     },
-    answer: "",
+    answer: "d",
   },
   244: {
     question:
@@ -2519,7 +2519,7 @@ export const questionBank = {
       c: " Status bar ",
       d: " All of the above",
     },
-    answer: "",
+    answer: "a",
   },
   245: {
     question:
@@ -2530,7 +2530,7 @@ export const questionBank = {
       c: " 14 ",
       d: " 16",
     },
-    answer: "",
+    answer: "b",
   },
   246: {
     question:
@@ -2541,7 +2541,7 @@ export const questionBank = {
       c: " 10 ",
       d: " 15",
     },
-    answer: "",
+    answer: "c",
   },
   247: {
     question: " How many ways you can save a document?",
@@ -2561,7 +2561,7 @@ export const questionBank = {
       c: " 16038 ",
       d: " None of the above",
     },
-    answer: "d",
+    answer: "b",
   },
   249: {
     question:
@@ -2572,7 +2572,7 @@ export const questionBank = {
       c: " 63 ",
       d: " 65",
     },
-    answer: "",
+    answer: "c",
   },
   250: {
     question:
@@ -2583,7 +2583,7 @@ export const questionBank = {
       c: " 100 ",
       d: " 90",
     },
-    answer: "",
+    answer: "b",
   },
   251: {
     question:
@@ -2594,7 +2594,7 @@ export const questionBank = {
       c: " .753 ",
       d: " .13 ",
     },
-    answer: "",
+    answer: "b",
   },
   252: {
     question: " What is the default file extension for all word documents?",
@@ -2625,7 +2625,7 @@ export const questionBank = {
       c: " 'Edit Data Source' button ",
       d: " 'Data Editing' button ",
     },
-    answer: "",
+    answer: "c",
   },
   255: {
     question: " How much space in minimum must be provided between columns?",
@@ -2635,7 +2635,7 @@ export const questionBank = {
       c: " 13 ",
       d: " 1.53 ",
     },
-    answer: "",
+    answer: "a",
   },
   256: {
     question: " What is the smallest width of a column?",
@@ -2645,7 +2645,7 @@ export const questionBank = {
       c: " 13 ",
       d: " 1.53 ",
     },
-    answer: "",
+    answer: "b",
   },
   257: {
     question: " By default, your document prints with?",
@@ -2655,7 +2655,7 @@ export const questionBank = {
       c: " 1.25 inches left and right margins ",
       d: " all of the above ",
     },
-    answer: "",
+    answer: "d",
   },
   258: {
     question:
@@ -2666,7 +2666,7 @@ export const questionBank = {
       c: " 1.25-inch left and right margins and 1-inch top and bottom ",
       d: " 1-inch left and right margins and 1.25-inch top and bottom",
     },
-    answer: "",
+    answer: "c",
   },
   259: {
     question: " What is the default left margin in Word 2010 document?",
@@ -2676,7 +2676,7 @@ export const questionBank = {
       c: " 1.53 ",
       d: " 23",
     },
-    answer: "",
+    answer: "b",
   },
   260: {
     question:
@@ -2687,7 +2687,7 @@ export const questionBank = {
       c: " 12 and 72",
       d: " None of above ",
     },
-    answer: "",
+    answer: "a",
   },
   261: {
     question:
@@ -2698,7 +2698,7 @@ export const questionBank = {
       c: " 14 pt ",
       d: " None of above ",
     },
-    answer: "",
+    answer: "b",
   },
   262: {
     question: " If you want to go to end of page, you have to press?",
@@ -2718,7 +2718,7 @@ export const questionBank = {
       c: " A Blue wavy line under the repeated word ",
       d: " None of these ",
     },
-    answer: "c",
+    answer: "a",
   },
   264: {
     question:
@@ -2729,7 +2729,7 @@ export const questionBank = {
       c: " A database of Names and Addresses ",
       d: " All of these ",
     },
-    answer: "",
+    answer: "a",
   },
   265: {
     question: " Pressing F8 key for three times selects?",
@@ -2739,7 +2739,7 @@ export const questionBank = {
       c: " A Paragraph ",
       d: " Entire document ",
     },
-    answer: "",
+    answer: "d",
   },
   266: {
     question:
@@ -2750,7 +2750,7 @@ export const questionBank = {
       c: " a style ",
       d: " a boilerplate ",
     },
-    answer: "b",
+    answer: "c",
   },
   267: {
     question: " What is a Document Outline View?",
@@ -2760,7 +2760,7 @@ export const questionBank = {
       c: " A view with a structure of heading at various levels",
       d: " A view with a structure of heading at various levels",
     },
-    answer: "",
+    answer: "d",
   },
   268: {
     question: " Ctrl+Z?",
@@ -2781,7 +2781,7 @@ export const questionBank = {
       c: " Add/Sort Heading panel ",
       d: " Finish panel ",
     },
-    answer: "",
+    answer: "d",
   },
   270: {
     question: " What does Ctrl+=key effect?",
@@ -2791,7 +2791,7 @@ export const questionBank = {
       c: " All caps ",
       d: " Shadow ",
     },
-    answer: "",
+    answer: "b",
   },
   271: {
     question:
@@ -2834,7 +2834,7 @@ export const questionBank = {
       c: " Microsoft Office XP ",
       d: " Red Hat Linux ",
     },
-    answer: "",
+    answer: "c",
   },
   275: {
     question: " One Gigabyte is approximately equal is?",
@@ -2844,7 +2844,7 @@ export const questionBank = {
       c: " 1000,000,000,000 bytes ",
       d: " None of these ",
     },
-    answer: "",
+    answer: "b",
   },
   276: {
     question:
@@ -2855,7 +2855,7 @@ export const questionBank = {
       c: " 56 mins ",
       d: " 60 mins ",
     },
-    answer: "",
+    answer: "a",
   },
   277: {
     question: " Which of the following is not an input device?",
@@ -2876,7 +2876,7 @@ export const questionBank = {
       c: " Encapsulation ",
       d: " None of the above ",
     },
-    answer: "",
+    answer: "a",
   },
   279: {
     question: " Which of the following is used to Manage DataBase?",
@@ -2886,7 +2886,7 @@ export const questionBank = {
       c: " DBMS ",
       d: " None of the above ",
     },
-    answer: "",
+    answer: "c",
   },
   280: {
     question: " Which of the following is an example of non-volatile memory?",
@@ -2896,7 +2896,7 @@ export const questionBank = {
       c: " ROM ",
       d: " None of the above ",
     },
-    answer: "",
+    answer: "c",
   },
   281: {
     question: " Computer Monitor is also known?",
@@ -2936,7 +2936,7 @@ export const questionBank = {
       c: " Kilobyte ",
       d: " None ",
     },
-    answer: "",
+    answer: "a",
   },
   285: {
     question: " Which one is the result of the output given by a computer?",
@@ -2956,7 +2956,7 @@ export const questionBank = {
       c: " DVD ",
       d: " Hard Disk ",
     },
-    answer: "a",
+    answer: "b",
   },
   287: {
     question: " The printed output from a computer is called?",
@@ -2987,7 +2987,7 @@ export const questionBank = {
       c: " Crashing ",
       d: " Allotting ",
     },
-    answer: "",
+    answer: "b",
   },
   290: {
     question:
@@ -2998,7 +2998,7 @@ export const questionBank = {
       c: " Platform ",
       d: " Firmware ",
     },
-    answer: "d",
+    answer: "c",
   },
   291: {
     question: " In which year slide rule was developed?",
@@ -3008,7 +3008,7 @@ export const questionBank = {
       c: " 1620 ",
       d: " 1855 ",
     },
-    answer: "",
+    answer: "c",
   },
   292: {
     question: " Which was the computer conceived by babbage?",
@@ -3018,7 +3018,7 @@ export const questionBank = {
       c: " Analytical engine ",
       d: " All of the above ",
     },
-    answer: "",
+    answer: "c",
   },
   293: {
     question: " Shell is the exclusive feature of?",
@@ -3028,7 +3028,7 @@ export const questionBank = {
       c: " DOS ",
       d: " UNIX ",
     },
-    answer: "",
+    answer: "d",
   },
   294: {
     question: " Name the application used for creating presentations ___?",
@@ -3040,6 +3040,17 @@ export const questionBank = {
     },
     answer: "d",
   },
+  295: {
+    question: " Modem is a?",
+    options: {
+      a: " Word processing software ",
+      b: " Application software ",
+      c: " Hard ware ",
+      d: "  Mini computer ",
+    },
+    answer: "c",
+  },
+
   296: {
     question: " Which of the following can be considered as portable computer?",
     options: {
@@ -3078,7 +3089,7 @@ export const questionBank = {
       c: " Notebook computer ",
       d: "  Server ",
     },
-    answer: "",
+    answer: "a",
   },
   300: {
     question: " Which of the following is the full form of ENIAC?",
@@ -3088,7 +3099,7 @@ export const questionBank = {
       c: " Electrical Numerical Integer and Computation ",
       d: "  Electrical Numerical Integer and Computation ",
     },
-    answer: "",
+    answer: "b",
   },
   301: {
     question: " CPU is the  ____ of computer?",
@@ -3139,7 +3150,7 @@ export const questionBank = {
       c: " Input ",
       d: "  Output ",
     },
-    answer: "b",
+    answer: "c",
   },
   306: {
     question: " FORTRAN is useful in ______ sector?",
@@ -3149,7 +3160,7 @@ export const questionBank = {
       c: " Earthquake analysis ",
       d: "  Business purpose ",
     },
-    answer: "",
+    answer: "b",
   },
   307: {
     question: " LCD stands for?",
@@ -3179,7 +3190,7 @@ export const questionBank = {
       c: " ROM ",
       d: " RAM ",
     },
-    answer: "",
+    answer: "a",
   },
   310: {
     question: " What was the first fully electronic computer in the world?",
@@ -3189,7 +3200,7 @@ export const questionBank = {
       c: " EDSAC ",
       d: " ENIAC ",
     },
-    answer: "",
+    answer: "c",
   },
   311: {
     question: " Non physical components of the computer are referred to as ?",
@@ -3209,7 +3220,7 @@ export const questionBank = {
       c: " Only addition ",
       d: " Addition and subtraction ",
     },
-    answer: "",
+    answer: "a",
   },
   313: {
     question:
@@ -3231,7 +3242,7 @@ export const questionBank = {
       c: " Full adder ",
       d: " Half adder ",
     },
-    answer: "",
+    answer: "d",
   },
   315: {
     question:
@@ -3262,7 +3273,7 @@ export const questionBank = {
       c: " Douglas Engelbart ",
       d: " Robert Zawaski ",
     },
-    answer: "",
+    answer: "c",
   },
   318: {
     question: " A web address is also called a?",
@@ -3283,7 +3294,7 @@ export const questionBank = {
       c: " Data flow ",
       d: " Logical operation ",
     },
-    answer: "",
+    answer: "d",
   },
   320: {
     question: " An error is also known as?",
@@ -3324,7 +3335,7 @@ export const questionBank = {
       c: " Protocol ",
       d: " Programmer ",
     },
-    answer: "b",
+    answer: "d",
   },
   324: {
     question: " In a computer, how many bits does a nibble signify?",
@@ -3334,7 +3345,7 @@ export const questionBank = {
       c: " 16 ",
       d: " 32 ",
     },
-    answer: "",
+    answer: "a",
   },
   325: {
     question:
@@ -3345,7 +3356,7 @@ export const questionBank = {
       c: " Physical ",
       d: " Secondary ",
     },
-    answer: "",
+    answer: "b",
   },
   326: {
     question:
@@ -3356,7 +3367,7 @@ export const questionBank = {
       c: " Software decoder ",
       d: " Program decoder ",
     },
-    answer: "",
+    answer: "a",
   },
   327: {
     question:
@@ -3367,7 +3378,7 @@ export const questionBank = {
       c: " Byte ",
       d: " ASCII ",
     },
-    answer: "",
+    answer: "d",
   },
   328: {
     question:
@@ -3388,7 +3399,7 @@ export const questionBank = {
       c: " Napier's Bone ",
       d: " Difference Engine ",
     },
-    answer: "",
+    answer: "d",
   },
   330: {
     question: " The main function of a computer system is to ___ data?",
@@ -3440,7 +3451,7 @@ export const questionBank = {
       c: " Laser ",
       d: " Thermal ",
     },
-    answer: "",
+    answer: "d",
   },
   335: {
     question:
@@ -3451,7 +3462,7 @@ export const questionBank = {
       c: " DISK COPY ",
       d: " CHKDISK ",
     },
-    answer: "",
+    answer: "c",
   },
   336: {
     question:
@@ -3462,7 +3473,7 @@ export const questionBank = {
       c: " Three ",
       d: " Four ",
     },
-    answer: "",
+    answer: "c",
   },
   337: {
     question:
@@ -3473,7 +3484,7 @@ export const questionBank = {
       c: " Outlook Express ",
       d: " Internet Explorer ",
     },
-    answer: "a",
+    answer: "b",
   },
   338: {
     question:
@@ -3484,7 +3495,7 @@ export const questionBank = {
       c: " 300 ",
       d: " 3000",
     },
-    answer: "",
+    answer: "d",
   },
   339: {
     question:
@@ -3495,7 +3506,7 @@ export const questionBank = {
       c: " The IBM PC/AT ",
       d: " All of these ",
     },
-    answer: "",
+    answer: "b",
   },
   340: {
     question: " Which of the following is related to register?",
@@ -3505,7 +3516,7 @@ export const questionBank = {
       c: " Sequential circuit ",
       d: " Digital circuit ",
     },
-    answer: "",
+    answer: "c",
   },
   341: {
     question: " From which of the following the CPU chip is partially made??",
@@ -3525,7 +3536,7 @@ export const questionBank = {
       c: " Assigned to one and only one task ",
       d: " All of above ",
     },
-    answer: "",
+    answer: "c",
   },
   343: {
     question: " Everything computer does it controlled by its?",
@@ -3545,7 +3556,7 @@ export const questionBank = {
       c: " Formatting ",
       d: " Digital Signature ",
     },
-    answer: "a",
+    answer: "b",
   },
   345: {
     question: " Objects are represented by?",
@@ -3555,7 +3566,7 @@ export const questionBank = {
       c: " Rows ",
       d: " None of these ",
     },
-    answer: "",
+    answer: "a",
   },
   346: {
     question:
@@ -3587,7 +3598,7 @@ export const questionBank = {
       c: " Bitmap terminal ",
       d: " All of the above ",
     },
-    answer: "",
+    answer: "c",
   },
   349: {
     question:
@@ -3608,7 +3619,7 @@ export const questionBank = {
       c: " Compaq Corpn ",
       d: " Microsoft Corpn ",
     },
-    answer: "",
+    answer: "b",
   },
   351: {
     question:
@@ -3619,7 +3630,7 @@ export const questionBank = {
       c: " EPROM ",
       d: " EEPROM ",
     },
-    answer: "",
+    answer: "d",
   },
   352: {
     question:
@@ -3630,7 +3641,7 @@ export const questionBank = {
       c: " FORTRAN ",
       d: " PASCAL ",
     },
-    answer: "",
+    answer: "d",
   },
   353: {
     question:
@@ -3641,7 +3652,7 @@ export const questionBank = {
       c: " EPROM ",
       d: " PROM ",
     },
-    answer: "",
+    answer: "c",
   },
   354: {
     question: " The digital computer was developed primarily in?",
@@ -3651,7 +3662,7 @@ export const questionBank = {
       c: " USSR ",
       d: " Japan ",
     },
-    answer: "",
+    answer: "b",
   },
   355: {
     question:
@@ -3662,7 +3673,7 @@ export const questionBank = {
       c: " OCR register terminal ",
       d: " Data collection terminal ",
     },
-    answer: "",
+    answer: "b",
   },
   356: {
     question:
@@ -3673,7 +3684,7 @@ export const questionBank = {
       c: " Internal memory ",
       d: " External memory ",
     },
-    answer: "",
+    answer: "c",
   },
   357: {
     question: " Time during which a job is processed by the computer is?",
@@ -3683,7 +3694,7 @@ export const questionBank = {
       c: " Real time ",
       d: " Delay time ",
     },
-    answer: "",
+    answer: "b",
   },
   358: {
     question:
@@ -3694,7 +3705,7 @@ export const questionBank = {
       c: " EPROM ",
       d: " PROM ",
     },
-    answer: "",
+    answer: "a",
   },
   359: {
     question: " The central part of a disk is known as?",
@@ -3704,7 +3715,7 @@ export const questionBank = {
       c: " Hub ",
       d: " Surface ",
     },
-    answer: "",
+    answer: "c",
   },
   360: {
     question:
@@ -3715,7 +3726,7 @@ export const questionBank = {
       c: " OCR register terminal ",
       d: " Data collection terminal ",
     },
-    answer: "",
+    answer: "b",
   },
   361: {
     question:
@@ -3726,7 +3737,7 @@ export const questionBank = {
       c: " Internal memory ",
       d: " External memory ",
     },
-    answer: "",
+    answer: "c",
   },
   362: {
     question: " Time during which a job is processed by the computer is?",
@@ -3736,7 +3747,7 @@ export const questionBank = {
       c: " Real time ",
       d: " Delay time ",
     },
-    answer: "",
+    answer: "b",
   },
   363: {
     question:
@@ -3747,7 +3758,7 @@ export const questionBank = {
       c: " EROM ",
       d: " EPROM ",
     },
-    answer: "",
+    answer: "a",
   },
   364: {
     question: " Impact printers?",
@@ -3757,7 +3768,7 @@ export const questionBank = {
       c: " include ink jet and thermal devices ",
       d: " strike a ribbon against the paper to produce character images ",
     },
-    answer: "",
+    answer: "d",
   },
   365: {
     question: " A typical modern computer uses?",
@@ -3767,7 +3778,7 @@ export const questionBank = {
       c: "  LSI chips ",
       d: " Magnetic cores ",
     },
-    answer: "",
+    answer: "c",
   },
   366: {
     question: " Computer Operators?",
@@ -3777,7 +3788,7 @@ export const questionBank = {
       c: "  Operate the devices which input and output data from the computer",
       d: " All of the above ",
     },
-    answer: "",
+    answer: "c",
   },
   367: {
     question: " One millionth of a second is?",
@@ -3787,7 +3798,7 @@ export const questionBank = {
       c: "  Media ",
       d: " Milliseconds ",
     },
-    answer: "",
+    answer: "a",
   },
   368: {
     question: " Who was the father of Punched Card Processing.?",
@@ -3797,7 +3808,7 @@ export const questionBank = {
       c: " Charles Babbage ",
       d: " J Presper Eckert ",
     },
-    answer: "",
+    answer: "b",
   },
   369: {
     question:
@@ -3808,7 +3819,7 @@ export const questionBank = {
       c: " Slide master ",
       d: " Notes Page ",
     },
-    answer: "",
+    answer: "a",
   },
   370: {
     question: " To print a document.....?",
@@ -3818,7 +3829,7 @@ export const questionBank = {
       c: " type Print and then press Enter ",
       d: " None of these ",
     },
-    answer: "",
+    answer: "a",
   },
   371: {
     question: " What is a list of data files of any database called?",
@@ -3828,7 +3839,7 @@ export const questionBank = {
       c: " Data disc ",
       d: " Data dictionary ",
     },
-    answer: "",
+    answer: "d",
   },
   372: {
     question: " What is the main folder on a storage device called?",
@@ -3838,7 +3849,7 @@ export const questionBank = {
       c: " Device driver ",
       d: " Platform ",
     },
-    answer: "",
+    answer: "a",
   },
   373: {
     question: " Excel workbook is a collection of.......002E?",
@@ -3848,7 +3859,7 @@ export const questionBank = {
       c: " Worksheet ",
       d: " a and c ",
     },
-    answer: "",
+    answer: "c",
   },
   374: {
     question: " Which of the following is not related to text formatting?",
@@ -3858,7 +3869,7 @@ export const questionBank = {
       c: " Margin change ",
       d: " Searching ",
     },
-    answer: "",
+    answer: "d",
   },
   375: {
     question:
@@ -3869,7 +3880,7 @@ export const questionBank = {
       c: " Call ",
       d: " Formula ",
     },
-    answer: "",
+    answer: "a",
   },
   376: {
     question: " The word wrap feature -?",
@@ -3879,7 +3890,7 @@ export const questionBank = {
       c: " Allows you to type over text ",
       d: " Is the short horizontal line indicating the end of the document ",
     },
-    answer: "",
+    answer: "a",
   },
   377: {
     question: " What is a default file extension for all word documents?",
@@ -3899,7 +3910,7 @@ export const questionBank = {
       c: " Part directory ",
       d: " Sub directory ",
     },
-    answer: "",
+    answer: "d",
   },
   379: {
     question: " Microsoft office is an example of a...........?",
@@ -3909,7 +3920,7 @@ export const questionBank = {
       c: " horizontal market software ",
       d: " vertical market software ",
     },
-    answer: "",
+    answer: "c",
   },
   380: {
     question: " To correct the spelling in Ms-Word we use.......?",
@@ -3930,7 +3941,7 @@ export const questionBank = {
       c: " Graphics package ",
       d: " Spreadsheet ",
     },
-    answer: "",
+    answer: "d",
   },
   382: {
     question: " The background of any word document......?",
@@ -3940,7 +3951,7 @@ export const questionBank = {
       c: " is always the same for the entire document",
       d: " Can have any colour you choose ",
     },
-    answer: "",
+    answer: "d",
   },
   383: {
     question: " Text in a column is generally aligned.....?",
@@ -3950,7 +3961,7 @@ export const questionBank = {
       c: " Centre",
       d: " Left ",
     },
-    answer: "",
+    answer: "d",
   },
   384: {
     question: " Numbers in table columns are usual.....?",
@@ -3960,7 +3971,7 @@ export const questionBank = {
       c: " justified ",
       d: " cantered ",
     },
-    answer: "",
+    answer: "a",
   },
   385: {
     question: " A collection of related files is called.........?",
@@ -3970,7 +3981,7 @@ export const questionBank = {
       c: " Date base ",
       d: " Record ",
     },
-    answer: "",
+    answer: "c",
   },
   386: {
     question:
@@ -3981,7 +3992,7 @@ export const questionBank = {
       c: " Characters, sections and paragraphs ",
       d: " Indexes, characters and Tables ",
     },
-    answer: "",
+    answer: "a",
   },
   387: {
     question:
@@ -3992,7 +4003,7 @@ export const questionBank = {
       c: " Save as ",
       d: " New file ",
     },
-    answer: "",
+    answer: "c",
   },
   388: {
     question:
@@ -4003,7 +4014,7 @@ export const questionBank = {
       c: " Text group ",
       d: " Tables group ",
     },
-    answer: "",
+    answer: "c",
   },
   389: {
     question: " Which is the fastest printer?",
@@ -4013,7 +4024,7 @@ export const questionBank = {
       c: " thermal printer ",
       d: " Daisy wheel printer ",
     },
-    answer: "",
+    answer: "a",
   },
   390: {
     question:
@@ -4024,7 +4035,7 @@ export const questionBank = {
       c: " calculation capacity and large memory storage",
       d: " multiple uses ",
     },
-    answer: "",
+    answer: "c",
   },
   391: {
     question:
@@ -4035,7 +4046,7 @@ export const questionBank = {
       c: " secret language ",
       d: " none of these ",
     },
-    answer: "",
+    answer: "b",
   },
   392: {
     question: " Which method is used in modern digital computer?",
@@ -4045,7 +4056,7 @@ export const questionBank = {
       c: " decimal number system ",
       d: " none of the above ",
     },
-    answer: "",
+    answer: "a",
   },
   393: {
     question:
@@ -4056,7 +4067,7 @@ export const questionBank = {
       c: " compiler ",
       d: " program ",
     },
-    answer: "",
+    answer: "d",
   },
   394: {
     question:
@@ -4067,7 +4078,7 @@ export const questionBank = {
       c: " motherboard ",
       d: " semiconductor ",
     },
-    answer: "",
+    answer: "c",
   },
   395: {
     question: " Which of the followin is a part of the system unit?",
@@ -4077,7 +4088,7 @@ export const questionBank = {
       c: " CD-Rom ",
       d: " Floppy disk ",
     },
-    answer: "",
+    answer: "a",
   },
   396: {
     question:
@@ -4088,7 +4099,7 @@ export const questionBank = {
       c: " CTRL+S, CTRL+S ",
       d: " SHIFT+C, ALT+P ",
     },
-    answer: "",
+    answer: "a",
   },
   397: {
     question: " Each box in a spreadsheet is called is called a......?",
@@ -4098,7 +4109,7 @@ export const questionBank = {
       c: " record ",
       d: " field ",
     },
-    answer: "",
+    answer: "a",
   },
   398: {
     question: " When a file is saved for the first time.........?",
@@ -4108,7 +4119,7 @@ export const questionBank = {
       c: " it does not need a name ",
       d: " It must be given a name to identify it ",
     },
-    answer: "",
+    answer: "d",
   },
   399: {
     question: " The letter and number the intersecting column and row is the-?",
@@ -4118,7 +4129,7 @@ export const questionBank = {
       c: " Cell address ",
       d: " Cell coordinates ",
     },
-    answer: "",
+    answer: "c",
   },
   400: {
     question:
@@ -4129,6 +4140,6 @@ export const questionBank = {
       c: " Business forms ",
       d: " Spreadsheets",
     },
-    answer: "",
+    answer: "d",
   },
 };

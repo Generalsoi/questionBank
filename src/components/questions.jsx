@@ -4,11 +4,12 @@ import { questionBank } from "./questionBank";
 // question = {question: string, options: {key, value: string, }, answer: string}
 export const QuestionViewer = ({
   questionObject: { question, options, answer },
+  questionNo: no,
 }) => {
   const [showAnswer, setShowAnswer] = useState(false);
   return (
     <div>
-      <h4 className="text-4xl">{question}</h4>
+      <h4 className="text-4xl">{`${no}) ${question}`}</h4>
 
       <div className="w-full flex justify-center">
         <ul className="mt-8">
@@ -30,25 +31,34 @@ export const QuestionViewer = ({
         </button>
       </div>
 
-      <div className="text-xl">{showAnswer && `The answer is: ${answer}`}</div>
+      <div className="text-4xl mt-4 text-lime-600 uppercase">
+        {showAnswer && `The answer is: ${answer}`}
+      </div>
     </div>
   );
 };
 
 export const Questions = () => {
   const [number, setNumber] = useState(0);
-  const [selectedNo, setSelectedNo] = useState([number]);
+  const [selectedNo, setSelectedNo] = useState([]);
   const [selectedQuestion, setSelectedQuestion] = useState(0);
 
-  const previousQuestions = JSON.parse(localStorage.getItem("selectedNos"));
+  // const previousQuestions = JSON.parse(localStorage.getItem("selectedNos"));
 
   const handleDisplay = () => {
-    setSelectedQuestion(number);
-    setSelectedNo([...selectedNo, number]);
-    localStorage.setItem("selectedNos", JSON.stringify(selectedNo));
+    if (selectedNo.includes(number)) {
+      setSelectedQuestion(0);
+    } else {
+      setSelectedQuestion(number);
+      setSelectedNo([...selectedNo, number]);
+    }
+    // setSelectedNo([...selectedNo, number]);
+    // localStorage.setItem("selectedNos", JSON.stringify(selectedNo));
   };
 
-  const questionBankJson = JSON.stringify(questionBank);
+  console.log(selectedNo);
+
+  const questionBankJson = JSON.stringify("selectedNos");
 
   return (
     <div className="w-full h-screen flex flex-col md:flex-row  items-center font-roboto bg-black text-white">
@@ -72,7 +82,10 @@ export const Questions = () => {
       <div className="h-screen w-full md:w-4/5 flex items-center justify-center">
         <div className="w-[80%] h-[80%] flex flex-col items-center justify-center border border-white rounded-lg p-10">
           {selectedQuestion !== 0 && (
-            <QuestionViewer questionObject={questionBank[selectedQuestion]} />
+            <QuestionViewer
+              questionObject={questionBank[selectedQuestion]}
+              questionNo={selectedQuestion}
+            />
           )}
         </div>
       </div>
