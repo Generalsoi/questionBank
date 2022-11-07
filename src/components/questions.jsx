@@ -51,6 +51,7 @@ export const Questions = () => {
     } else {
       setSelectedQuestion(number);
       setSelectedNo([...selectedNo, number]);
+      localStorage.setItem("selectedNos", JSON.stringify(selectedNo));
     }
     // setSelectedNo([...selectedNo, number]);
     // localStorage.setItem("selectedNos", JSON.stringify(selectedNo));

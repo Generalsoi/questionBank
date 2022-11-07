@@ -4142,4 +4142,14 @@ export const questionBank = {
     },
     answer: "d",
   },
+  401: {
+    question: "When was the first computer invented?",
+    options: {
+      a: "1945",
+      b: "1943",
+      c: "1893",
+      d: "2022",
+    },
+    answer: "b",
+  },
 };
