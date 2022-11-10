@@ -4143,13 +4143,596 @@ export const questionBank = {
     answer: "d",
   },
   401: {
-    question: "When was the first computer invented?",
+    question: "when was the first computer invented ?",
     options: {
-      a: "1945",
-      b: "1943",
-      c: "1893",
-      d: "2022",
+      a: "1921",
+      b: "1942",
+      c: "1879",
+      d: "1943",
+    },
+    answer: "d",
+  },
+
+  402: {
+    question: "What was the name of the first computer invented? ",
+    options: {
+      a: "abacus",
+      b: "paragraph motor",
+      c: "Electronic Numerical Integrator and Computer(ENIAC)",
+      d: "The Charles Babbage computer",
+    },
+    answer: "c",
+  },
+
+  403: {
+    question: "Who is known as the father of computers? ",
+    options: {
+      a: "Ada Shaw",
+      b: "Charles Babbage",
+      c: "Steve Jobs",
+      d: "Ada Lovelace",
     },
     answer: "b",
+  },
+
+  404: {
+    question: "What was the first computer system that used color display? ",
+    options: {
+      a: "IBM 23",
+      b: "Microsoft 1",
+      c: "Apple 1",
+      d: "UPS Enia",
+    },
+    answer: "c",
+  },
+
+  405: {
+    question: "What was the first mass- produced computer? ",
+    options: {
+      a: "IBM 345",
+      b: "IBM 730",
+      c: "IBM 650",
+      d: "IBM 345",
+    },
+    answer: "c",
+  },
+
+  406: {
+    question: "When was the first 1 GB disk drive released in the world? ",
+    options: {
+      a: "1990",
+      b: "1980",
+      c: "1970",
+      d: "1960",
+    },
+    answer: "b",
+  },
+
+  407: {
+    question: "What was the name of the first computer programmer? ",
+    options: {
+      a: "Ada Lovelace",
+      b: "Charles Babbage",
+      c: "Erica Helsing",
+      d: "Cleoptria Ruler",
+    },
+    answer: "a",
+  },
+
+  408: {
+    question:
+      "Who is called the inventor of the first modern electronic computer? ",
+    options: {
+      a: "Konrad Zuse",
+      b: "Womra Asus",
+      c: "Steve Jobs",
+      d: "Nagaski Hiroshima",
+    },
+    answer: "a",
+  },
+
+  409: {
+    question: "How many generations of computers have been invented? ",
+    options: {
+      a: "12",
+      b: "9",
+      c: "7",
+      d: "5",
+    },
+    answer: "d",
+  },
+
+  410: {
+    question: "Which popular company designed the first CPU?",
+    options: {
+      a: "HP",
+      b: "IBM",
+      c: "Intel Corporations",
+      d: "Apple",
+    },
+    answer: "c",
+  },
+
+  411: {
+    question:
+      "What is the name of the first automatic electronic digital computer?",
+    options: {
+      a: "Hewlett Packard Computer (HP)",
+      b: "Apple Laptop Computers",
+      c: "Atanasoff-Berry Computer (ABC)",
+      d: "Microsoft Bill Laptops",
+    },
+    answer: "c",
+  },
+
+  412: {
+    question: "What does 'CD-ROM' stands for?",
+    options: {
+      a: "Control Disc  Read-Only Memory",
+      b: " Compact Disc Read-Only Memory",
+      c: "Central Disc Read-Only Memory",
+      d: "Canster Disc Read-Only Memory",
+    },
+    answer: "b",
+  },
+
+  413: {
+    question:
+      "Which computer hardware device performs the functions like click, point, drag, or select.",
+    options: {
+      a: "Mouse",
+      b: "keybaord",
+      c: "Drawing Tab",
+      d: "Webcam",
+    },
+    answer: "a",
+  },
+
+  414: {
+    question: "What is the computer's main circuit board called?",
+    options: {
+      a: "Motherboard",
+      b: "CPU",
+      c: "Processor",
+      d: "RAM",
+    },
+    answer: "a",
+  },
+
+  415: {
+    question:
+      "What is the name of the system that manages and programs hardware resources for a computer?",
+    options: {
+      a: "Operating System",
+      b: "Processing System",
+      c: "Storage system",
+      d: "Neural system",
+    },
+    answer: "a",
+  },
+
+  416: {
+    question:
+      "Which information storage is used to store short- term running programs and data in a computer?",
+    options: {
+      a: "ROM",
+      b: "RAM",
+      c: "CD-RAM",
+      d: "CD-ROM",
+    },
+    answer: "b",
+  },
+
+  417: {
+    question:
+      "Which input device is used to enter letters, numbers, and other characters into a computer?",
+    options: {
+      a: "Letterboard",
+      b: "Keyboard",
+      c: "Whiteboard",
+      d: "Mouseboard",
+    },
+
+    answer: "b",
+  },
+  418: {
+    question:
+      "Which output device is used to display information in visual pictorial form?",
+    options: {
+      a: "Processor",
+      b: "System Unit",
+      c: "Monitor",
+      d: "Motherboard",
+    },
+
+    answer: "c",
+  },
+
+  419: {
+    question:
+      "Which part of the computer fetches, decodes, and executes the programming instructions?",
+    options: {
+      a: "PUC",
+      b: "UPC",
+      c: "CPU",
+      d: "MPU",
+    },
+
+    answer: "c",
+  },
+
+  420: {
+    question:
+      "What is the name of the device that performs both input and output functions in a computer?",
+    options: {
+      a: "Cyproburg",
+      b: "Modenter",
+      c: "Modem",
+      d: "Enter Remove",
+    },
+
+    answer: "c",
+  },
+
+  421: {
+    question:
+      "'Laser', 'Dot Matrix' and 'Inkjet' are types of which output computer device?",
+    options: {
+      a: "Keyboard",
+      b: "Mouse",
+      c: "Printer",
+      d: "Monitor",
+    },
+
+    answer: "c",
+  },
+
+  422: {
+    question: "What is the full form of UPS?",
+    options: {
+      a: "Unkillable Power Supply",
+      b: "Uninterruptible Power Supply",
+      c: "Unisolar Power Supply",
+      d: "Uninverted Power Supply",
+    },
+    answer: "b",
+  },
+
+  423: {
+    question:
+      "Popular computer brands like Apple, Dell and Microsoft started their offices from which place?",
+    options: {
+      a: " An Ofiice",
+      b: "A Pool",
+      c: "A Garage",
+      d: "Trashcan",
+    },
+
+    answer: "c",
+  },
+  424: {
+    question: "Which two people co- founded Apple Inc.in 1977?",
+
+    options: {
+      a: "Williams Procter & James Gamble",
+      b: "Bill Hewlett and David Packard",
+      c: "Ben Cohen and Jerry Greenfield",
+      d: "Steve Jobs and Steve Woznia",
+    },
+
+    answer: "d",
+  },
+
+  425: {
+    question:
+      "What is the name of the first operating system designed by Microsoft?",
+    options: {
+      a: "MS Vista",
+      b: "Ms Windows",
+      c: "MS EXperience",
+      d: "MS-DOS (Microsoft Disk Operating System)",
+    },
+    answer: "d",
+  },
+
+  426: {
+    question:
+      "Which computer company invented the first floppy disks, hard disk drives, and DRAMS",
+    options: {
+      a: "IBM",
+      b: "HP",
+      c: "ASUS",
+      d: "Apple",
+    },
+
+    answer: "a",
+  },
+
+  427: {
+    question: "Who are the founders of HP?",
+    options: {
+      a: " William Hewlett and David Packard.",
+      b: "Williams Procter & James Gamble",
+      c: "Ben Cohen and Jerry Greenfield",
+      d: "Steve Jobs and Steve Woznia",
+    },
+
+    answer: "a",
+  },
+
+  428: {
+    question: "Who is currently the CEO of Microsoft?",
+    options: {
+      a: "Larry Page",
+      b: "Jack Dorsey",
+      c: "Satya Nadella",
+      d: "Renault Audiger",
+    },
+
+    answer: "c",
+  },
+
+  429: {
+    question: "What is the name of Apple's desktop operating system?",
+    options: {
+      a: "Iphone OS",
+      b: "Mac OS",
+      c: "Windows OS",
+      d: "Apple OS",
+    },
+    answer: "b",
+  },
+
+  430: {
+    question: "Which is the single most popular computer system ever sold?",
+    options: {
+      a: "Asus Rog",
+      b: "Mac Book Pro",
+      c: "Commodore 64",
+      d: "DELL Inspiron",
+    },
+    answer: "c",
+  },
+
+  431: {
+    question: "What was the name of the first IBM computer?",
+    options: {
+      a: "IBM 3030",
+      b: "IBM 4532",
+      c: "IBM 5112",
+      d: "IBM 5150",
+    },
+
+    answer: "d",
+  },
+
+  432: {
+    question: "Which company invented the USB port?",
+    options: {
+      a: "Intel Corporations",
+      b: "IBM",
+      c: "HP",
+      d: "APPLE",
+    },
+
+    answer: "a",
+  },
+
+  433: {
+    question: "What type of application is MS- Word ?",
+    options: {
+      a: "Operating System",
+      b: "Word Processor",
+      c: "Word Typing",
+      d: "Word Play",
+    },
+    answer: "b",
+  },
+  434: {
+    question:
+      "'Firefox', 'Chrome', and 'Safari' are what type of computer software?",
+    options: {
+      a: "Internet",
+      b: "Gaming",
+      c: "Web Browser",
+      d: "Hardware",
+    },
+
+    answer: "c",
+  },
+
+  435: {
+    question:
+      "In what type of application we can add slides, text, images, graphics, and videos?",
+    options: {
+      a: "Gaming Software",
+      b: "Web Browser",
+      c: "Word Processing",
+      d: "Presentation Software",
+    },
+
+    answer: "d",
+  },
+  436: {
+    question: "'.xls' is a file extension used in which application?",
+    options: {
+      a: "Ms Excel",
+      b: "Ms Access",
+      c: "Ms Powerpoint",
+      d: "Ms Word",
+    },
+
+    answer: "a",
+  },
+  437: {
+    question:
+      "What application programs are used to organize, store, and modify data in computers?",
+
+    options: {
+      a: "Ms Excel",
+      b: "Database management Systems",
+      c: "Programmers",
+      d: "Data Collectors",
+    },
+    answer: "b",
+  },
+
+  438: {
+    question:
+      "Which programs are used to translate high- level language into a machine language code?",
+    options: {
+      a: "Compilation trackers",
+      b: "Mysql Trackers",
+      c: "Programming language translators, assemblers, compilers, and interpreters",
+      d: "Programming Assemblers",
+    },
+    answer: "c",
+  },
+
+  439: {
+    question:
+      "'Adobe Photoshop' and 'PaintShop Pro' are examples of which type of applications?",
+
+    options: {
+      a: "Design Software",
+      b: "Photo Software",
+      c: "Programming Software",
+      d: "Graphics Software",
+    },
+    answer: "d",
+  },
+
+  440: {
+    question:
+      "What type of applications are available to users on a trial basis only for a limited period of time?",
+    options: {
+      a: "Freeware",
+      b: "Shareware",
+      c: "Trialware",
+      d: "Paidware",
+    },
+
+    answer: "b",
+  },
+
+  441: {
+    question:
+      "What type of computer applications have an intersecting area called cells and can perform calculations with formulas and functions?",
+
+    options: {
+      a: "Spreadsheet",
+      b: "Rows",
+      c: "Columns",
+      d: "Tettrash",
+    },
+
+    answer: "a",
+  },
+
+  442: {
+    question:
+      "'VLC media player' and 'Windows media player' are what type of programs?",
+
+    options: {
+      a: "Multimedia",
+      b: "Video",
+      c: "Netsyce",
+      d: "Gameplayer",
+    },
+
+    answer: "a",
+  },
+
+  443: {
+    question:
+      "What type of applications are available with a source code to modify and add features to it? ",
+
+    options: {
+      a: "FreeSource Applications",
+      b: "OpenSource Applications",
+      c: "Sharesource Applications",
+      d: "Available source application",
+    },
+
+    answer: "b",
+  },
+
+  444: {
+    question:
+      "A computer which is smaller than a laptop and about the size of a textbook is: ",
+
+    options: {
+      a: "Textbook Computer",
+      b: "Notebook Computer",
+      c: "Tablet Computer",
+      d: "Ipad Computer",
+    },
+    answer: "b",
+  },
+
+  445: {
+    question:
+      "A small input device with one or more buttons used as for painting or drawing is: ",
+
+    options: {
+      a: "Drawing Pad",
+      b: "Mouse",
+      c: "Keyboard",
+      d: "Drawing key",
+    },
+
+    answer: "b",
+  },
+
+  446: {
+    question:
+      "The simultaneous execution of two or more programs in one computer is called:",
+
+    options: {
+      a: "Multi-tasking",
+      b: "Double-tasking",
+      c: "More-Taksing",
+      d: "Tasking Tasking",
+    },
+    answer: "a",
+  },
+
+  447: {
+    question: "PASCAL was developed by:",
+
+    options: {
+      a: "Nikky Sinctis",
+      b: "Ninola Dennis",
+      c: "Niklaus Wirth",
+      d: "Nikolas Whittr",
+    },
+
+    answer: "c",
+  },
+
+  448: {
+    question:
+      "The computer with multiple processors with shared memory space is known as: ",
+
+    options: {
+      a: "Double Processor System",
+      b: "Share Processing Memory",
+      c: "Multi-Processor System",
+      d: "Double Shared Processor",
+    },
+    answer: "c",
+  },
+  449: {
+    question:
+      "A security method that identifies a specific authorized user of a computer system, by a unique string of character that user types as an identification code is",
+
+    options: {
+      a: "Pin",
+      b: "Security",
+      c: "Password",
+      d: "AUthentication",
+    },
+
+    answer: "c",
   },
 };
