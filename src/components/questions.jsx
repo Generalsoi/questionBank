@@ -31,7 +31,7 @@ export const QuestionViewer = ({
         </button>
       </div>
 
-      <div className="text-4xl mt-4 text-lime-600 uppercase">
+      <div className="text-4xl mt-4 lg:mt-8 text-lime-600 uppercase">
         {showAnswer && `The answer is: ${answer}`}
       </div>
     </div>
