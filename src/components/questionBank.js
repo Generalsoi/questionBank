@@ -1,106 +1,5 @@
 export const questionBank = {
   1: {
-    question: "What is the full meaning of www?",
-    options: {
-      a: "Wonder Working Word",
-      b: "World Wide Web",
-      c: "Word Wide Website",
-      d: "World Wide Webinar",
-    },
-    answer: "b",
-  },
-  2: {
-    question: "All are different types of programming except one?",
-    options: {
-      a: "Object-oriented programming language",
-      b: "Logic programming language",
-      c: "Procedural programming language",
-      d: "Run time programming language",
-    },
-    answer: "b",
-  },
-  3: {
-    question: " How does programming work?",
-    options: {
-      a: "Programming contains a set of instructions for the computer to perform different task ",
-      b: "Programming is when the system is been powered on ",
-      c: "Programming is by updating the system ",
-      d: "Programming is the transfer of files to different locations in the computer ",
-    },
-    answer: "a",
-  },
-  4: {
-    question: "Finding and removing errors in a program is called?",
-    options: {
-      a: "Fixing errors",
-      b: "Debugging",
-      c: "Looping ",
-      d: "Syntax ",
-    },
-    answer: "b",
-  },
-  5: {
-    question: "A syntax error is been detected at?",
-    options: {
-      a: "Compile time",
-      b: "Logical time",
-      c: "Run - time",
-      d: "Standard time",
-    },
-    answer: "b",
-  },
-  6: {
-    question:
-      "Run-time errors are the only errors that are displayed immediately?",
-    options: {
-      a: " Execution of a program ",
-      b: " Syntax setup",
-      c: " After debugging",
-      d: " Default system setup",
-    },
-    answer: "a",
-  },
-  7: {
-    question: "What is a flow chart?",
-    options: {
-      a: " A pictorial representation of a program",
-      b: " A computer error chart ",
-      c: " A chart that shows the system's connections ",
-      d: " It enables the system to display pictures ",
-    },
-    answer: "a",
-  },
-  8: {
-    question: " A ______________ must be clear, finite and effective?",
-    options: {
-      a: " Flow chart",
-      b: " Algorithm ",
-      c: " Debugging ",
-      d: " Program ",
-    },
-    answer: "a",
-  },
-  9: {
-    question: " One of these is 'NOT' a way of reducing page load time? ",
-    options: {
-      a: " Reduce image size",
-      b: " Remove unnecessary widjets ",
-      c: " Placing Javascript references at the top ",
-      d: " Placing Javascript references at the top ",
-    },
-    answer: "c",
-  },
-  10: {
-    question: " All are reserved words except one?",
-    options: {
-      a: " IF",
-      b: " Else",
-      c: " Then",
-      d: " we",
-    },
-    answer: "d",
-  },
-  11: {
     question: " What do we call the binary form of a target language?",
     options: {
       a: " Binary code ",
@@ -110,7 +9,7 @@ export const questionBank = {
     },
     answer: "a",
   },
-  12: {
+  2: {
     question: " All but one is a constant?",
     options: {
       a: " String constant ",
@@ -120,7 +19,7 @@ export const questionBank = {
     },
     answer: "a",
   },
-  13: {
+  3: {
     question:
       " _____________ are symbols which are used to perform certain operations on a data?",
     options: {
@@ -131,7 +30,7 @@ export const questionBank = {
     },
     answer: "b",
   },
-  14: {
+  4: {
     question:
       " ______________ is a detailed description of a programs algorithm, design, coding method, testing and proper usage?",
     options: {
@@ -142,7 +41,7 @@ export const questionBank = {
     },
     answer: "c",
   },
-  15: {
+  5: {
     question:
       " The contiguous collection of memory locations that can store data of the same type is called?",
     options: {
@@ -153,7 +52,7 @@ export const questionBank = {
     },
     answer: "c",
   },
-  16: {
+  6: {
     question: " _______________ operators are used to compare two values? ",
     options: {
       a: " Relational",
@@ -163,7 +62,7 @@ export const questionBank = {
     },
     answer: "d",
   },
-  17: {
+  7: {
     question: " Which of these is “NOT” a type of web developer?",
     options: {
       a: " Front End Web Developers ",
@@ -173,7 +72,7 @@ export const questionBank = {
     },
     answer: "b",
   },
-  18: {
+  8: {
     question:
       " The programming language which provides high generalization from the computer's 'instruction set architecture' is called?",
     options: {
@@ -184,7 +83,7 @@ export const questionBank = {
     },
     answer: "a",
   },
-  19: {
+  9: {
     question:
       " ________________ is a language, which can be processed directly by a microprocessor without any need for the previous transformation?",
     options: {
@@ -195,7 +94,7 @@ export const questionBank = {
     },
     answer: "a",
   },
-  20: {
+  10: {
     question: "All but one is a Programming language?",
     options: {
       a: "C#",
@@ -205,6 +104,108 @@ export const questionBank = {
     },
     answer: "d",
   },
+  11: {
+    question: "What is the full meaning of www?",
+    options: {
+      a: "Wonder Working Word",
+      b: "World Wide Web",
+      c: "Word Wide Website",
+      d: "World Wide Webinar",
+    },
+    answer: "b",
+  },
+  12: {
+    question: "All are different types of programming except one?",
+    options: {
+      a: "Object-oriented programming language",
+      b: "Logic programming language",
+      c: "Procedural programming language",
+      d: "Run time programming language",
+    },
+    answer: "b",
+  },
+  13: {
+    question: " How does programming work?",
+    options: {
+      a: "Programming contains a set of instructions for the computer to perform different task ",
+      b: "Programming is when the system is been powered on ",
+      c: "Programming is by updating the system ",
+      d: "Programming is the transfer of files to different locations in the computer ",
+    },
+    answer: "a",
+  },
+  14: {
+    question: "Finding and removing errors in a program is called?",
+    options: {
+      a: "Fixing errors",
+      b: "Debugging",
+      c: "Looping ",
+      d: "Syntax ",
+    },
+    answer: "b",
+  },
+  15: {
+    question: "A syntax error is been detected at?",
+    options: {
+      a: "Compile time",
+      b: "Logical time",
+      c: "Run - time",
+      d: "Standard time",
+    },
+    answer: "b",
+  },
+  16: {
+    question:
+      "Run-time errors are the only errors that are displayed immediately?",
+    options: {
+      a: " Execution of a program ",
+      b: " Syntax setup",
+      c: " After debugging",
+      d: " Default system setup",
+    },
+    answer: "a",
+  },
+  17: {
+    question: "What is a flow chart?",
+    options: {
+      a: " A pictorial representation of a program",
+      b: " A computer error chart ",
+      c: " A chart that shows the system's connections ",
+      d: " It enables the system to display pictures ",
+    },
+    answer: "a",
+  },
+  18: {
+    question: " A ______________ must be clear, finite and effective?",
+    options: {
+      a: " Flow chart",
+      b: " Algorithm ",
+      c: " Debugging ",
+      d: " Program ",
+    },
+    answer: "a",
+  },
+  19: {
+    question: " One of these is 'NOT' a way of reducing page load time? ",
+    options: {
+      a: " Reduce image size",
+      b: " Remove unnecessary widjets ",
+      c: " Placing Javascript references at the top ",
+      d: " Placing Javascript references at the top ",
+    },
+    answer: "c",
+  },
+  20: {
+    question: " All are reserved words except one?",
+    options: {
+      a: " IF",
+      b: " Else",
+      c: " Then",
+      d: " we",
+    },
+    answer: "d",
+  },
+
   21: {
     question:
       "_______________ is the proper working of software during a specific period of time?",

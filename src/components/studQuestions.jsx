@@ -18,7 +18,6 @@ export const StudQuestions = () => {
         >
           Start
         </button>
-        <p className="text-white">timer</p>
       </div>
 
       <div className="mt-8 p-4 w-full h-[85%] flex items-center justify-center">
