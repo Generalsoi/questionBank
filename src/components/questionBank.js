@@ -311,108 +311,113 @@ export const questionBank = {
     answer: "b",
   },
   31: {
-    question: " Numeric values include one of the following?",
+    question:
+      " Which of the following chips can be reprogrammed with special electric pulses?",
     options: {
-      a: " Floating point numbers ",
-      b: " Related point numbers ",
-      c: " Command point numbers ",
-      d: " Corrected point number ",
+      a: " ROM ",
+      b: " PROM ",
+      c: " EPROM ",
+      d: " EEPROM ",
     },
-    answer: "a",
+    answer: "d",
   },
   32: {
-    question: " Which of these Is a String in JavaScript?",
+    question:
+      " The computer program language which is widely used in computer science and engineering and also in business is?",
     options: {
-      a: " 1,2,3,4,5 ",
-      b: " Name ",
-      c: " True or False ",
-      d: " === ",
+      a: " COBOL ",
+      b: " LISP ",
+      c: " FORTRAN ",
+      d: " PASCAL ",
     },
-    answer: "b",
+    answer: "d",
   },
   33: {
     question:
-      " Which of the Following is Known as the Controlling part of Computer?",
+      "  The memory which is ultraviolet light erasable and electrically programmable is?",
     options: {
-      a: " C.P.U ",
-      b: " Keyboard ",
-      c: " Mouse ",
-      d: " Hard disk ",
+      a: " ROM ",
+      b: " RAM ",
+      c: " EPROM ",
+      d: " PROM ",
     },
-    answer: "a",
+    answer: "c",
   },
   34: {
-    question: " What is the Function of the CPU in a Computer system?",
+    question: " The digital computer was developed primarily in?",
     options: {
-      a: " Control Input and Output Device ",
-      b: " Read Instructions and Execute instructions ",
-      c: " Perform arithmetic and Logical instructions ",
-      d: " All of these ",
+      a: " UK ",
+      b: " USA ",
+      c: " USSR ",
+      d: " Japan ",
     },
-    answer: "d",
+    answer: "b",
   },
   35: {
     question:
-      " Which of the following part of the Computer Performs Arithmetic Calculations?",
+      " The terminal device that functions as a cash register, computer terminal and OCR reader is the?",
     options: {
-      a: " O.S ",
-      b: " C.P.U ",
-      c: " A.L.U  ",
-      d: " CU ",
+      a: " Video display terminal ",
+      b: " POS terminal ",
+      c: " OCR register terminal ",
+      d: " Data collection terminal ",
     },
-    answer: "c",
+    answer: "b",
   },
   36: {
-    question: "A Computer system mainly consist of?",
+    question:
+      " The word â€˜Computer â€™ usually refers to the Central Processor Unit plus?",
     options: {
-      a: " Input & Output ",
-      b: " C.P.U ",
-      c: " Memory ",
-      d: " All of the above ",
+      a: "  Input devices ",
+      b: " Output devices ",
+      c: " Internal memory ",
+      d: " External memory ",
     },
-    answer: "d",
+    answer: "c",
   },
   37: {
-    question:
-      " Which of the following is the Operating system developed by Google?",
+    question: " Time during which a job is processed by the computer is?",
     options: {
-      a: " Unix ",
-      b: " Linux ",
-      c: " Andriod ",
-      d: " Mac OS ",
+      a: "  Down time ",
+      b: " Execution time ",
+      c: " Real time ",
+      d: " Delay time ",
     },
-    answer: "c",
+    answer: "b",
   },
-  38: {
-    question: " The Proceeded form of Data is known as ______?",
+  358: {
+    question:
+      "  The computer memory used for temporary storage of data and program is called ?",
     options: {
-      a: " Input ",
-      b: " Output ",
-      c: " Information ",
-      d: " All ",
+      a: " ROM ",
+      b: " RAM ",
+      c: " EPROM ",
+      d: " PROM ",
     },
-    answer: "c",
+    answer: "a",
   },
   39: {
-    question: " The Speed of Supercomputer is Measured in ___________?",
+    question: " The central part of a disk is known as?",
     options: {
-      a: " MIPS ",
-      b: " FLOPS ",
-      c: " MHz ",
-      d: " GHz ",
+      a: "  Cluster ",
+      b: " Cylinder ",
+      c: " Hub ",
+      d: " Surface ",
     },
     answer: "c",
   },
   40: {
-    question: " The Information that is stored in the Computer is known?",
+    question:
+      " The terminal device that functions as a cash register, computer terminal and OCR reader is the?",
     options: {
-      a: " Directory ",
-      b: " Sub directory ",
-      c: " Memory ",
-      d: " Files",
+      a: "  Video display terminal ",
+      b: " POS terminal ",
+      c: " OCR register terminal ",
+      d: " Data collection terminal ",
     },
-    answer: "d",
+    answer: "b",
   },
+
   41: {
     question:
       " Which of the following is not the Computer File Name extension of Video file format?",
@@ -3623,112 +3628,109 @@ export const questionBank = {
     answer: "b",
   },
   351: {
-    question:
-      " Which of the following chips can be reprogrammed with special electric pulses?",
+    question: " Numeric values include one of the following?",
     options: {
-      a: " ROM ",
-      b: " PROM ",
-      c: " EPROM ",
-      d: " EEPROM ",
-    },
-    answer: "d",
-  },
-  352: {
-    question:
-      " The computer program language which is widely used in computer science and engineering and also in business is?",
-    options: {
-      a: " COBOL ",
-      b: " LISP ",
-      c: " FORTRAN ",
-      d: " PASCAL ",
-    },
-    answer: "d",
-  },
-  353: {
-    question:
-      "  The memory which is ultraviolet light erasable and electrically programmable is?",
-    options: {
-      a: " ROM ",
-      b: " RAM ",
-      c: " EPROM ",
-      d: " PROM ",
-    },
-    answer: "c",
-  },
-  354: {
-    question: " The digital computer was developed primarily in?",
-    options: {
-      a: " UK ",
-      b: " USA ",
-      c: " USSR ",
-      d: " Japan ",
-    },
-    answer: "b",
-  },
-  355: {
-    question:
-      " The terminal device that functions as a cash register, computer terminal and OCR reader is the?",
-    options: {
-      a: " Video display terminal ",
-      b: " POS terminal ",
-      c: " OCR register terminal ",
-      d: " Data collection terminal ",
-    },
-    answer: "b",
-  },
-  356: {
-    question:
-      " The word â€˜Computer â€™ usually refers to the Central Processor Unit plus?",
-    options: {
-      a: "  Input devices ",
-      b: " Output devices ",
-      c: " Internal memory ",
-      d: " External memory ",
-    },
-    answer: "c",
-  },
-  357: {
-    question: " Time during which a job is processed by the computer is?",
-    options: {
-      a: "  Down time ",
-      b: " Execution time ",
-      c: " Real time ",
-      d: " Delay time ",
-    },
-    answer: "b",
-  },
-  358: {
-    question:
-      "  The computer memory used for temporary storage of data and program is called ?",
-    options: {
-      a: " ROM ",
-      b: " RAM ",
-      c: " EPROM ",
-      d: " PROM ",
+      a: " Floating point numbers ",
+      b: " Related point numbers ",
+      c: " Command point numbers ",
+      d: " Corrected point number ",
     },
     answer: "a",
   },
-  359: {
-    question: " The central part of a disk is known as?",
+  352: {
+    question: " Which of these Is a String in JavaScript?",
     options: {
-      a: "  Cluster ",
-      b: " Cylinder ",
-      c: " Hub ",
-      d: " Surface ",
+      a: " 1,2,3,4,5 ",
+      b: " Name ",
+      c: " True or False ",
+      d: " === ",
+    },
+    answer: "b",
+  },
+  353: {
+    question:
+      " Which of the Following is Known as the Controlling part of Computer?",
+    options: {
+      a: " C.P.U ",
+      b: " Keyboard ",
+      c: " Mouse ",
+      d: " Hard disk ",
+    },
+    answer: "a",
+  },
+  354: {
+    question: " What is the Function of the CPU in a Computer system?",
+    options: {
+      a: " Control Input and Output Device ",
+      b: " Read Instructions and Execute instructions ",
+      c: " Perform arithmetic and Logical instructions ",
+      d: " All of these ",
+    },
+    answer: "d",
+  },
+  355: {
+    question:
+      " Which of the following part of the Computer Performs Arithmetic Calculations?",
+    options: {
+      a: " O.S ",
+      b: " C.P.U ",
+      c: " A.L.U  ",
+      d: " CU ",
+    },
+    answer: "c",
+  },
+  356: {
+    question: "A Computer system mainly consist of?",
+    options: {
+      a: " Input & Output ",
+      b: " C.P.U ",
+      c: " Memory ",
+      d: " All of the above ",
+    },
+    answer: "d",
+  },
+  357: {
+    question:
+      " Which of the following is the Operating system developed by Google?",
+    options: {
+      a: " Unix ",
+      b: " Linux ",
+      c: " Andriod ",
+      d: " Mac OS ",
+    },
+    answer: "c",
+  },
+  358: {
+    question: " The Proceeded form of Data is known as ______?",
+    options: {
+      a: " Input ",
+      b: " Output ",
+      c: " Information ",
+      d: " All ",
+    },
+    answer: "c",
+  },
+  359: {
+    question: " The Speed of Supercomputer is Measured in ___________?",
+    options: {
+      a: " MIPS ",
+      b: " FLOPS ",
+      c: " MHz ",
+      d: " GHz ",
     },
     answer: "c",
   },
   360: {
-    question:
-      " The terminal device that functions as a cash register, computer terminal and OCR reader is the?",
+    question: " The Information that is stored in the Computer is known?",
     options: {
-      a: "  Video display terminal ",
-      b: " POS terminal ",
-      c: " OCR register terminal ",
-      d: " Data collection terminal ",
+      a: " Directory ",
+      b: " Sub directory ",
+      c: " Memory ",
+      d: " Files",
     },
-    answer: "b",
+    answer: "d",
   },
+
   361: {
     question:
       " The word â€˜Computer â€™ usually refers to the Central Processor Unit plus?",
