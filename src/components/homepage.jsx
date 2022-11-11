@@ -9,7 +9,7 @@ export const Homepage = () => {
   }, []);
   return (
     <div className="w-full h-screen flex flex-col items-center justify-center bg-black text-white font-roboto gap-5">
-      <h1 className="font-bold text-lg md:text-2xl text-center uppercase">
+      <h1 className="font-bold text-lg md:text-4xl text-center uppercase">
         <Typewriter
           onInit={(typewriter) => {
             typewriter.typeString("Welcome to IT School Of The Year").start();
@@ -17,8 +17,8 @@ export const Homepage = () => {
         />
       </h1>
       {show && (
-        <Link to="/questions">
-          <button className="w-40 h-9 flex items-center justify-center border rounded-lg border-white hover:bg-white hover:text-black">
+        <Link to="/pages">
+          <button className="w-40  h-9 2xl:w-60 2xl:h-12 flex items-center justify-center border rounded-lg border-white hover:bg-white hover:text-black">
             Next
           </button>
         </Link>

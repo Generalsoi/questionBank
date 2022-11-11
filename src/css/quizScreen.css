@@ -1,0 +1,37 @@
+.progress-bar {
+  height: 2rem;
+  background: white;
+  width: 0%;
+  border-radius: 8px;
+}
+
+.progress-bar.active {
+  animation: progress 15s linear forwards;
+}
+
+@keyframes progress {
+  0% {
+    width: 0%;
+    background: black;
+  }
+
+  60% {
+    width: 60%;
+    background: white;
+  }
+
+  80% {
+    width: 80%;
+    background: red;
+  }
+
+  90% {
+    width: 90%;
+    background: red;
+  }
+
+  100% {
+    width: 100%;
+    background: red;
+  }
+}
