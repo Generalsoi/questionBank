@@ -1455,108 +1455,112 @@ export const questionBank = {
     answer: "d",
   },
   141: {
-    question: " Winchester drive is also called what?",
+    question: " Changing the appearance of a document is called?",
     options: {
-      a: "Flash drive",
-      b: " Pen drive ",
-      c: " Hard disk drive ",
-      d: " CD drive ",
+      a: " Proofing ",
+      b: " Editing ",
+      c: " formating ",
+      d: " All of above ",
     },
     answer: "c",
   },
   142: {
-    question: " Which IRQ does the hard disk drive use?",
+    question:
+      " In a document what is the maximum number of columns that can be inserted in MS Word Table?",
     options: {
-      a: "32",
-      b: " 14 ",
-      c: " 16 ",
-      d: " 64 ",
+      a: " 28 ",
+      b: " 32 ",
+      c: " 35 ",
+      d: " 40",
     },
-    answer: "b",
+    answer: "c",
   },
   143: {
-    question: " What is the 'Arendelle' code name for?",
+    question: " You can detect spelling and grammar errors by?",
     options: {
-      a: " Intel Core I3 Processors ",
-      b: " Intel Core I9 Processors ",
-      c: " Intel Core X-series Processors ",
-      d: " Intel Processor ",
+      a: " Press Shift + F7 ",
+      b: " Press Ctrl + F7 ",
+      c: " Press Alt + F7 ",
+      d: " Press F7",
     },
     answer: "d",
   },
   144: {
-    question: " IRQ6 is commonly assigned to?",
-    options: {
-      a: " System timer ",
-      b: " disk controller ",
-      c: " Virtual Box floppy ",
-      d: " Floppy Drive Controller ",
-    },
-    answer: "d",
-  },
-  145: {
     question:
-      " Which of the following languages is the predecessor to C Programming Language?",
+      " A screen element of MS Word that is usually located below the title bar that provides categorized options is?",
     options: {
-      a: " A ",
-      b: " B ",
-      c: " BCPL",
-      d: " C++ ",
-    },
-    answer: "c",
-  },
-  146: {
-    question: " C programming language was developed by?",
-    options: {
-      a: " Dennis Ritchie ",
-      b: " Ken Thompson ",
-      c: " Bill Gates",
-      d: " Peter Norton ",
+      a: " Menu bar ",
+      b: " Tool bar ",
+      c: " Status bar ",
+      d: " All of the above",
     },
     answer: "a",
   },
-  147: {
-    question: " C was developed in the year ___?",
+  145: {
+    question:
+      " Single spacing in MS-WORD document causes………point line spacing?",
     options: {
-      a: " 1970 ",
-      b: " 1972 ",
-      c: " 1976",
-      d: " 1980 ",
+      a: " 10 ",
+      b: " 12 ",
+      c: " 14 ",
+      d: " 16",
     },
     answer: "b",
   },
-  148: {
-    question: " C is a ___ language?",
+  146: {
+    question:
+      " What is the maximum number of lines you can set for lines to drop box?",
     options: {
-      a: " High Level ",
-      b: " Low Level ",
-      c: " Middle Level ",
-      d: " Machine Level ",
+      a: " 3 ",
+      b: " 5 ",
+      c: " 10 ",
+      d: " 15",
     },
     answer: "c",
   },
-  149: {
-    question:
-      " C language is available for which of the following Operating Systems?",
+  147: {
+    question: " How many ways you can save a document?",
     options: {
-      a: " DOS ",
-      b: " Windows ",
-      c: " UNIX",
-      d: " All of these",
+      a: " 3 ",
+      b: " 5 ",
+      c: " 4 ",
+      d: " 6",
     },
-    answer: "d",
+    answer: "a",
   },
-  150: {
-    question:
-      " Which of the following symbols is used to denote a preprocessor statement?",
+  148: {
+    question: " What is the maximum font size you can apply for any character?",
     options: {
-      a: " ! ",
-      b: " # ",
-      c: " ~",
-      d: " ;",
+      a: " 163 ",
+      b: " 1638 ",
+      c: " 16038 ",
+      d: " None of the above",
     },
     answer: "b",
   },
+  149: {
+    question:
+      " In a document what is the maximum number of columns that can be inserted in MS Word table?",
+    options: {
+      a: " 35 ",
+      b: " 15 ",
+      c: " 63 ",
+      d: " 65",
+    },
+    answer: "c",
+  },
+  150: {
+    question:
+      " What is the maximum scale percentage available in Scale drop down box?",
+    options: {
+      a: " 500 ",
+      b: " 200 ",
+      c: " 100 ",
+      d: " 90",
+    },
+    answer: "b",
+  },
+
   151: {
     question: " Which of the following is a Scalar Data type?",
     options: {
@@ -2485,112 +2489,111 @@ export const questionBank = {
     },
     answer: "d",
   },
+
   241: {
-    question: " Changing the appearance of a document is called?",
+    question: " Winchester drive is also called what?",
     options: {
-      a: " Proofing ",
-      b: " Editing ",
-      c: " formating ",
-      d: " All of above ",
+      a: "Flash drive",
+      b: " Pen drive ",
+      c: " Hard disk drive ",
+      d: " CD drive ",
     },
     answer: "c",
   },
   242: {
-    question:
-      " In a document what is the maximum number of columns that can be inserted in MS Word Table?",
+    question: " Which IRQ does the hard disk drive use?",
     options: {
-      a: " 28 ",
-      b: " 32 ",
-      c: " 35 ",
-      d: " 40",
+      a: "32",
+      b: " 14 ",
+      c: " 16 ",
+      d: " 64 ",
     },
-    answer: "c",
+    answer: "b",
   },
   243: {
-    question: " You can detect spelling and grammar errors by?",
+    question: " What is the 'Arendelle' code name for?",
     options: {
-      a: " Press Shift + F7 ",
-      b: " Press Ctrl + F7 ",
-      c: " Press Alt + F7 ",
-      d: " Press F7",
+      a: " Intel Core I3 Processors ",
+      b: " Intel Core I9 Processors ",
+      c: " Intel Core X-series Processors ",
+      d: " Intel Processor ",
     },
     answer: "d",
   },
   244: {
-    question:
-      " A screen element of MS Word that is usually located below the title bar that provides categorized options is?",
+    question: " IRQ6 is commonly assigned to?",
     options: {
-      a: " Menu bar ",
-      b: " Tool bar ",
-      c: " Status bar ",
-      d: " All of the above",
+      a: " System timer ",
+      b: " disk controller ",
+      c: " Virtual Box floppy ",
+      d: " Floppy Drive Controller ",
     },
-    answer: "a",
+    answer: "d",
   },
   245: {
     question:
-      " Single spacing in MS-WORD document causes………point line spacing?",
+      " Which of the following languages is the predecessor to C Programming Language?",
     options: {
-      a: " 10 ",
-      b: " 12 ",
-      c: " 14 ",
-      d: " 16",
-    },
-    answer: "b",
-  },
-  246: {
-    question:
-      " What is the maximum number of lines you can set for lines to drop box?",
-    options: {
-      a: " 3 ",
-      b: " 5 ",
-      c: " 10 ",
-      d: " 15",
+      a: " A ",
+      b: " B ",
+      c: " BCPL",
+      d: " C++ ",
     },
     answer: "c",
   },
-  247: {
-    question: " How many ways you can save a document?",
+  246: {
+    question: " C programming language was developed by?",
     options: {
-      a: " 3 ",
-      b: " 5 ",
-      c: " 4 ",
-      d: " 6",
+      a: " Dennis Ritchie ",
+      b: " Ken Thompson ",
+      c: " Bill Gates",
+      d: " Peter Norton ",
     },
     answer: "a",
   },
-  248: {
-    question: " What is the maximum font size you can apply for any character?",
+  247: {
+    question: " C was developed in the year ___?",
     options: {
-      a: " 163 ",
-      b: " 1638 ",
-      c: " 16038 ",
-      d: " None of the above",
+      a: " 1970 ",
+      b: " 1972 ",
+      c: " 1976",
+      d: " 1980 ",
     },
     answer: "b",
   },
-  249: {
-    question:
-      " In a document what is the maximum number of columns that can be inserted in MS Word table?",
+  248: {
+    question: " C is a ___ language?",
     options: {
-      a: " 35 ",
-      b: " 15 ",
-      c: " 63 ",
-      d: " 65",
+      a: " High Level ",
+      b: " Low Level ",
+      c: " Middle Level ",
+      d: " Machine Level ",
     },
     answer: "c",
   },
+  249: {
+    question:
+      " C language is available for which of the following Operating Systems?",
+    options: {
+      a: " DOS ",
+      b: " Windows ",
+      c: " UNIX",
+      d: " All of these",
+    },
+    answer: "d",
+  },
   250: {
     question:
-      " What is the maximum scale percentage available in Scale drop down box?",
+      " Which of the following symbols is used to denote a preprocessor statement?",
     options: {
-      a: " 500 ",
-      b: " 200 ",
-      c: " 100 ",
-      d: " 90",
+      a: " ! ",
+      b: " # ",
+      c: " ~",
+      d: " ;",
     },
     answer: "b",
   },
+
   251: {
     question:
       " Word, by, default, places a tab stop at every………….mark on the ruler:?",
