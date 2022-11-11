@@ -30,6 +30,7 @@ export const Quizquestions = ({
       progressBar.current.classList.add("active");
     }, 0);
     timer.current = setTimeout(nextQuestion, 15 * 1000);
+    // return nextQuestion;
   }, [question]);
 
   return (
@@ -41,10 +42,10 @@ export const Quizquestions = ({
 
       <div className="mt-10 w-full h-[90%] flex flex-col items-center justify-center p-4">
         <div className="text-2xl 2xl:text-6xl">{question.question}</div>
-        <div>
+        <div className="mt-8">
           {question.options.map((option, index) => {
             return (
-              <div className="text-xl 2xl:text-4xl" key={index}>
+              <div className="text-xl 2xl:text-4xl mt-2" key={index}>
                 {option}
               </div>
             );

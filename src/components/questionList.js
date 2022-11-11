@@ -186,7 +186,12 @@ export const QuestionList = [
   },
   {
     question: "Who is currently the CEO of Microsoft?",
-    options: ["Larry Page", "Jack Dorsey", "Satya Nadella", "Renault Audiger"],
+    options: [
+      "a) Larry Page",
+      "b) Jack Dorsey",
+      "c) Satya Nadella",
+      "d) Renault Audiger",
+    ],
 
     answer: "c",
   },
