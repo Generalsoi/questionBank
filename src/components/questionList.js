@@ -62,10 +62,10 @@ export const QuestionList = [
     question:
       "Which programs are used to translate high- level language into a machine language code?",
     options: [
-      "Compilation trackers",
-      "Mysql Trackers",
-      "Programming language translators, assemblers, compilers, and interpreters",
-      "Programming Assemblers",
+      "a) Compilation trackers",
+      "b) Mysql Trackers",
+      "c) Programming language translators, assemblers, compilers, and interpreters",
+      "d) Programming Assemblers",
     ],
     answer: "c",
   },

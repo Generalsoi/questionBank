@@ -57,12 +57,16 @@ export const Questions = () => {
     // localStorage.setItem("selectedNos", JSON.stringify(selectedNo));
   };
 
+  // const handleFullscreen = () => {
+  //   document.body.requestFullscreen();
+  // };
+
   console.log(selectedNo);
 
   const questionBankJson = JSON.stringify("selectedNos");
 
   return (
-    <div className="w-full h-screen flex flex-col md:flex-row  items-center font-roboto bg-black text-white">
+    <div className="w-full h-screen flex flex-col md:flex-row  items-center font-roboto bg-black text-white relative">
       <div className="h-screen w-full md:w-1/5 flex items-center justify-center">
         <div className="flex flex-col items-center justify-center gap-8 w-[80%] md:w-full border border-white h-[50%] md:h-[30%] p-3">
           <input
@@ -90,6 +94,17 @@ export const Questions = () => {
           )}
         </div>
       </div>
+
+      {/* {!document.fullscreenElement && (
+        <div className="absolute top-2 right-2 ">
+          <button
+            className="w-32 h-8 border rounded-lg"
+            onClick={handleFullscreen}
+          >
+            Fullscreen
+          </button>
+        </div>
+      )} */}
     </div>
   );
 };

@@ -4,11 +4,15 @@ import Typewriter from "typewriter-effect";
 
 export const Homepage = () => {
   const [show, setShow] = useState(false);
+
+  const handleFullscreen = () => {
+    document.body.requestFullscreen();
+  };
   useEffect(() => {
     setTimeout(() => setShow(true), 6000);
   }, []);
   return (
-    <div className="w-full h-screen flex flex-col items-center justify-center bg-black text-white font-roboto gap-5">
+    <div className="w-full h-screen flex flex-col items-center justify-center bg-black text-white font-roboto gap-5 relative">
       <h1 className="font-bold text-lg md:text-4xl text-center uppercase">
         <Typewriter
           onInit={(typewriter) => {
@@ -22,6 +26,16 @@ export const Homepage = () => {
             Next
           </button>
         </Link>
+      )}
+      {!document.fullscreenElement && (
+        <div className="absolute top-2 right-2 ">
+          <button
+            className="w-32 h-8 border rounded-lg"
+            onClick={handleFullscreen}
+          >
+            Fullscreen
+          </button>
+        </div>
       )}
     </div>
   );
